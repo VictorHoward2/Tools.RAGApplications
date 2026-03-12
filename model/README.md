@@ -1,0 +1,1 @@
+This is where example models such as BGE-M3 are stored. For example, these models are used for embedding the issues and finding similar issues based on their embeddings.

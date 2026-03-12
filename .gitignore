@@ -1,0 +1,4 @@
+*.csv
+*.json
+/model/bge-m3/
+/model/gte/
