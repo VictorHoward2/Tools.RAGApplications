@@ -1,14 +1,7 @@
 import pandas as pd
 import json
 from pathlib import Path
-
-
-# =============================
-# CONFIG
-# =============================
-INPUT_FILE = "../../Defect_list_50.csv"
-OUTPUT_FILE = "../../Defect_list_50.json"
-
+from _config.setting import *
 
 # =============================
 # Helpers
@@ -78,7 +71,17 @@ def build_issue_summary(df: pd.DataFrame):
 
         issues.append(issue)
 
-    return issues
+        
+    # deduplicate while keeping order
+    seen = set()
+    unique_issues = []
+    for i in issues:
+        if i["case_code"] not in seen:
+            unique_issues.append(i)
+            seen.add(i["case_code"])
+
+    return unique_issues
+
 
 
 # =============================
@@ -86,10 +89,10 @@ def build_issue_summary(df: pd.DataFrame):
 # =============================
 def main():
 
-    input_path = Path(INPUT_FILE)
+    input_path = Path(FILE_CSV)
 
     if not input_path.exists():
-        raise FileNotFoundError(f"Cannot find {INPUT_FILE}")
+        raise FileNotFoundError(f"Cannot find {FILE_CSV}")
 
     print("Reading CSV...")
     df = pd.read_csv(input_path)
@@ -98,7 +101,7 @@ def main():
     issues = build_issue_summary(df)
 
     print("Saving JSON...")
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+    with open(FILE_JSON, "w", encoding="utf-8") as f:
         json.dump(
             issues,
             f,
@@ -106,7 +109,7 @@ def main():
             ensure_ascii=False
         )
 
-    print(f"✅ Done! Output saved to: {OUTPUT_FILE}")
+    print(f"✅ Done! Output saved to: {FILE_JSON}")
     print(f"Total issues: {len(issues)}")
 
 

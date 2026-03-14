@@ -3,17 +3,7 @@ import torch
 from tqdm import tqdm
 from sentence_transformers import SentenceTransformer
 from pathlib import Path
-
-
-# ==========================
-# CONFIG
-# ==========================
-INPUT_JSON = "../../Defect_list_50_rag.json"
-OUTPUT_JSON = "../../Defect_list_50_embeddings.json"
-
-MODEL_NAME = "..\\..\\..\\..\\model\\bge-m3"
-DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-
+from _config.setting import *
 
 # ==========================
 # Load model
@@ -56,10 +46,10 @@ def embed_texts(texts, batch_size=16):
 # ==========================
 def main():
 
-    path = Path(INPUT_JSON)
+    path = Path(FILE_JSON_RAG)
 
     if not path.exists():
-        raise FileNotFoundError(INPUT_JSON)
+        raise FileNotFoundError(FILE_JSON_RAG)
 
     print("Loading issues...")
     issues = json.loads(path.read_text(encoding="utf-8"))
@@ -75,7 +65,7 @@ def main():
         issue["embedding"] = vec
 
     print("Saving output...")
-    with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
+    with open(FILE_JSON_EMBEDDING, "w", encoding="utf-8") as f:
         json.dump(issues, f, ensure_ascii=False)
 
     print("✅ Done!")

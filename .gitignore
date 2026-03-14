@@ -2,3 +2,4 @@
 *.json
 /model/bge-m3/
 /model/gte/
+__pycache__/

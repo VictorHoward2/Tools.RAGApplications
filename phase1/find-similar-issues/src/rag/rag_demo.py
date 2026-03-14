@@ -1,22 +1,7 @@
 import json
 import numpy as np
-import torch
 from sentence_transformers import SentenceTransformer
-
-
-# ==========================
-# CONFIG
-# ==========================
-RAW_JSON = "../../Defect_list_50.json"
-EMBED_JSON = "../../Defect_list_50_embeddings.json"
-
-MODEL_NAME = "..\\..\\..\\..\\model\\bge-m3"
-TOP_K = 10
-
-DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-
-ISSUE_TEST = 2
-
+from _config.setting import *
 
 # ==========================
 # Helpers
@@ -61,11 +46,11 @@ Defect Category:
 # Load data
 # ==========================
 print("Loading embeddings...")
-with open(EMBED_JSON, "r", encoding="utf-8") as f:
+with open(FILE_JSON_EMBEDDING, "r", encoding="utf-8") as f:
     db_issues = json.load(f)
 
 print("Loading raw issues...")
-with open(RAW_JSON, "r", encoding="utf-8") as f:
+with open(FILE_JSON, "r", encoding="utf-8") as f:
     raw_issues = json.load(f)
 
 
@@ -92,7 +77,7 @@ model = SentenceTransformer(MODEL_NAME, device=DEVICE)
 # ==========================
 # Query = issue #5
 # ==========================
-query_issue = raw_issues[ISSUE_TEST]   # index 4 = issue thứ 5
+query_issue = raw_issues[ISSUE_TEST_NO]   # index 4 = issue thứ 5
 
 query_text = build_query_text(query_issue)
 
