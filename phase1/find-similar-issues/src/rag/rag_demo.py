@@ -24,20 +24,10 @@ def build_query_text(issue):
     (search_text + evidence_text structure)
     """
 
-    title = clean(issue.get("title"))
-    defect_type = clean(issue.get("defect_type"))
-    phenomena = issue.get("phenomena", [])
+    search_text = clean(issue.get("search_text")) 
+    evidence_text = clean(issue.get("evidence_text"))
 
-    text = f"""
-Issue Title:
-{title}
-
-Observed Symptoms:
-{join_lines(phenomena)}
-
-Defect Category:
-{defect_type}
-"""
+    text = search_text + "\n" + evidence_text
 
     return text.strip()
 
@@ -50,7 +40,7 @@ with open(FILE_JSON_EMBEDDING, "r", encoding="utf-8") as f:
     db_issues = json.load(f)
 
 print("Loading raw issues...")
-with open(FILE_JSON, "r", encoding="utf-8") as f:
+with open(FILE_JSON_RAG, "r", encoding="utf-8") as f:
     raw_issues = json.load(f)
 
 
