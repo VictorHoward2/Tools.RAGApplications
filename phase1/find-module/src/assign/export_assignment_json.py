@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 from typing import Any
 
-from assign.classifier import classify_issue
+from classifier import classify_issue
 
 
 INPUT_FILE = Path("D:\\Projects\\AITOPIA\\phase1\\find-module\\data\\719\\Defect_list_rag.json")

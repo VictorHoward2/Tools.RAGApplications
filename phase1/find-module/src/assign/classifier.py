@@ -3,7 +3,7 @@ from __future__ import annotations
 import re
 from typing import Any
 
-from assign.keyword_config import (
+from keyword_config import (
     FIELD_WEIGHTS,
     HIGH_CONFIDENCE_GAP,
     LEVEL_WEIGHTS,
@@ -12,7 +12,7 @@ from assign.keyword_config import (
     PRIORITY_RULES,
     UNKNOWN_THRESHOLD,
 )
-from assign.pic_mapper import get_pic_by_module
+from pic_mapper import get_pic_by_module
 
 
 def normalize_text(text: str) -> str:
