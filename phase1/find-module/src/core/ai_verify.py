@@ -19,10 +19,67 @@ Terminology:
 
 # Tách riêng bối cảnh cho từng Module
 MODULE_DESCRIPTIONS = {
-    "OMA": "OMA (Open Mobile API): It is an AOSP (Android Open Source Project). It is a communication standard that allows android applications to access eSE.",
-    "SKMSAgent": "Samsung eSE API (SKMSAgent - Samsung Key Management System Agent): Basically eSE SDK allows client application to communicate with eSE. Also eSE SDK act as proxy application between SKMS server and eSE. From now on, I will use the name SKMSAgent.",
-    "SEM": "SEM (Secure Element Manage): Located behind SKMSAgent, it provides additional security features to ensure transactions to eSE are conducted correctly.",
-    "SKPM": "SKPM (Samsung Key Provisioning Mamagement): A mechanism that allows key injection from the server to an application that needs it."
+"OMA": """OMA (Open Mobile API): It is an AOSP (Android Open Source Project). It is a communication standard that allows android applications to access eSE. Keyword OMA:
+        - CTS (testcase fail):
+        - CtsOmapiTestCases
+        - CtsSecureElementAccessControlTestCases1
+        - CtsSecureElementAccessControlTestCases2
+        - CtsSecureElementAccessControlTestCases3
+
+        - VTS (testcase fail):
+        - VtsHalSecureElementTargetTest 
+        - VtsHalSecureElementV1_0TargetTest 
+        - com.android.se package 
+        - Error when install OMAPI CTS Applet
+        - SecureElementApplication/SecureElementService/SEService apps/services
+        - Log:
+        - SecureElement
+        - secure-element
+        - OMAPI CTS application  """,
+    "SKMSAgent": """Samsung eSE API (SKMSAgent - Samsung Key Management System Agent): Basically eSE SDK allows client application to communicate with eSE. Also eSE SDK act as proxy application between SKMS server and eSE. From now on, I will use the name SKMSAgent. Keyword SKMSAgent	
+        - Security feature:
+        - SEC_PRODUCT_FEATURE_SECURITY_SUPPORT_CNSKMS
+        - SEC_PRODUCT_FEATURE_SECURITY_CONFIG_MSG_VERSION
+        - SKMSAgent package:
+        - com.skms.android.agent
+        - com.samsung.android.ese
+        - SKMSAgent, SamsungSeAgent
+        - eSE util application (eSE clear, key rotation check, key rotation, change URL, get   - CPLC, sec applet loader (SecAppLoader))
+        - CPLC registration
+        - Log:
+        - SKMSAgent/SamsungSeAgent
+        - TSMAgent
+        - SEC_ESE
+        - (Sometime) NXP/THALES_HAL/GEMALTO_P3/SemService""",
+    "SEM": """SEM (Secure Element Manage): Located behind SKMSAgent, it provides additional security features to ensure transactions to eSE are conducted correctly. Keyword SEM	
+        - ESES/ESEA
+        - Security feature:
+        - SEC_PRODUCT_FEATURE_SECURITY_SUPPORT_ESE_REE_SPI
+        - SEC_PRODUCT_FEATURE_SECURITY_CONFIG_ESE_CHIP_VENDOR
+        - SEC_PRODUCT_FEATURE_SECURITY_CONFIG_ESE_COS_NAME
+        - SEC_PRODUCT_FEATURE_SECURITY_SUPPORT_ESEK
+        - eSE HAL/SEMFactoryApp/sem_daemon/SEMService/SEM HAL apps
+        - eSE
+        - eSE restricted mode
+        - Ap-eSE
+        - eSE COS
+        - Bringup (SW PL request check bringup của SEM/eSE state trên 1 project)
+        - Log:
+        - ro.security.esest/ro.security.esebap
+        - SEC_ESE
+        - SEM
+        - NXP/THALES_HAL/GEMALTO_P3
+        - (Sometime) SecureElement
+        - (Sometime) CTS, VTS tương tự như OMA""",
+    "SKPM":"""SKPM (Samsung Key Provisioning Mamagement): A mechanism that allows key injection from the server to an application that needs it. Keyword SKPM	
+        - In the log there is the keyword "SKPM" or "skpm", for example:
+        - 01-25 08:16:46.003  1000 10289 26262 E SKPM    : failed to write file, errno = 28,   - error str = No space left on device
+        - 11-14 15:28:21.081  1000  9849  9862 E SKPM    : skpm_keyInjection is failed, ret :   - -55
+        - 09-22 13:24:15.559 W 1000 459 4926 libc Unable to set property "ctl.interface_start"   - to "aidl/vendor.samsung.hardware.security.skpm.ISehSkpm/default":   - PROP_ERROR_HANDLE_CONTROL_MESSAGE (0x20)
+        - ...
+
+        - In the coBringup section (SW PL request check bringup of SKPM state on a project)
+        """,
 }
 
 def clean_text(text):
