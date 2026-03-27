@@ -1,0 +1,58 @@
+flowchart TD
+    %% Define Styles to make the diagram more beautiful and easier to see
+    classDef database fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef process fill:#bbf,stroke:#333,stroke-width:2px;
+    classDef condition fill:#ffd700,stroke:#333,stroke-width:2px;
+    classDef utopia fill:#dfd,stroke:#333,stroke-width:2px;
+    classDef llm fill:#fbc,stroke:#333,stroke-width:2px;
+
+    subgraph UTOPIA ["UTOPIA System"]
+        NewIssue(["A new Issue has appeared"]):::utopia
+        WriteComment(["Write Comment to new Issue\n(Write Root Cause & Solution)"]):::utopia
+    end
+
+    subgraph ServerHQ ["Server HQ"]
+        
+        subgraph Pipeline_Offline ["Stream 1: Data Preparation (Data Pipeline)"]
+            direction TB
+            PLM_API[Collect data using PLM API]:::process
+            Excel[(Excel file containing Issues)]:::database
+            ToJSON[Convert to JSON format]:::process
+            PreprocessDB[Preprocess to create Embedding field]:::process
+            EmbedDB[Embedding data]:::process
+            VectorDB[(Vector Database)]:::database
+
+            PLM_API --> Excel --> ToJSON --> PreprocessDB --> EmbedDB --> VectorDB
+        end
+
+        subgraph Pipeline_Online [Stream 2: Real-time RAG Processing]
+            direction TB
+            ReceiveAPI[Receive new Issue information via API]:::process
+            PreprocessNew[Preprocess Issue information]:::process
+            EmbedNew[Embedding to Vector]:::process
+            SearchDB[Search for similar Top-K Issues]:::process
+            ReRank[Re-rank removes irrelevant Issue]:::process
+            
+            CheckSimilar{Are there any similar Issues?}:::condition
+            
+            PromptGen["Summary Prompt:\nNew Issue + Similar Issues\n(Already has RC & Solution)"]:::process
+            LLM_Eval["LLM / AI Agent prediction\nRoot Cause & Solution"]:::llm
+            
+            FindRC_Flow["Inject another flow:\nIndependent Root Cause Finder Flow"]:::process
+        end
+
+        %% Online Stream Connection
+        ReceiveAPI --> PreprocessNew --> EmbedNew --> SearchDB
+        VectorDB -.->|Data Retrieval| SearchDB
+        SearchDB --> ReRank --> CheckSimilar
+
+        CheckSimilar -->|Has the same Issue| PromptGen
+        PromptGen --> LLM_Eval
+
+        CheckSimilar -->|No similar Issue| FindRC_Flow
+    end
+
+    %% Connection between UTOPIA and Server HQ
+    NewIssue -->|Automatically send information via API| ReceiveAPI
+    LLM_Eval -->|Returns expected Root Cause & Solution| WriteComment
+    FindRC_Flow -->|Returns Root Cause & Solution| WriteComment

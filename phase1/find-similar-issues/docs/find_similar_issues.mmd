@@ -1,0 +1,58 @@
+flowchart TD
+    %% Định nghĩa các Style để sơ đồ đẹp và dễ nhìn hơn
+    classDef database fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef process fill:#bbf,stroke:#333,stroke-width:2px;
+    classDef condition fill:#ffd700,stroke:#333,stroke-width:2px;
+    classDef utopia fill:#dfd,stroke:#333,stroke-width:2px;
+    classDef llm fill:#fbc,stroke:#333,stroke-width:2px;
+
+    subgraph UTOPIA ["Hệ thống UTOPIA"]
+        NewIssue(["Có Issue mới xuất hiện"]):::utopia
+        WriteComment(["Viết Comment lên Issue mới\n(Ghi Root Cause & Solution)"]):::utopia
+    end
+
+    subgraph ServerHQ ["Server HQ"]
+        
+        subgraph Pipeline_Offline ["Luồng 1: Chuẩn bị dữ liệu (Data Pipeline)"]
+            direction TB
+            PLM_API[Thu thập dữ liệu bằng PLM API]:::process
+            Excel[(File Excel chứa Issues)]:::database
+            ToJSON[Chuyển đổi sang định dạng JSON]:::process
+            PreprocessDB[Tiền xử lý tạo trường Embedding]:::process
+            EmbedDB[Embedding dữ liệu]:::process
+            VectorDB[(Vector Database)]:::database
+
+            PLM_API --> Excel --> ToJSON --> PreprocessDB --> EmbedDB --> VectorDB
+        end
+
+        subgraph Pipeline_Online [Luồng 2: Xử lý RAG Real-time]
+            direction TB
+            ReceiveAPI[Nhận thông tin Issue mới qua API]:::process
+            PreprocessNew[Tiền xử lý thông tin Issue]:::process
+            EmbedNew[Embedding thành Vector]:::process
+            SearchDB[Tìm kiếm Top-K Issues tương tự]:::process
+            ReRank[Re-rank loại bỏ Issue không liên quan]:::process
+            
+            CheckSimilar{Có Issue nào\ngiống không?}:::condition
+            
+            PromptGen["Tổng hợp Prompt:\nIssue mới + Các Issue tương tự\n(Đã có RC & Solution)"]:::process
+            LLM_Eval["LLM / AI Agent dự đoán\nRoot Cause & Solution"]:::llm
+            
+            FindRC_Flow["Đưa vào luồng khác:\nLuồng tìm Root Cause độc lập"]:::process
+        end
+
+        %% Kết nối Luồng Online
+        ReceiveAPI --> PreprocessNew --> EmbedNew --> SearchDB
+        VectorDB -.->|Truy xuất dữ liệu| SearchDB
+        SearchDB --> ReRank --> CheckSimilar
+
+        CheckSimilar -->|Có Issue giống| PromptGen
+        PromptGen --> LLM_Eval
+
+        CheckSimilar -->|Không có Issue giống| FindRC_Flow
+    end
+
+    %% Kết nối giữa UTOPIA và Server HQ
+    NewIssue -->|Tự động gửi thông tin qua API| ReceiveAPI
+    LLM_Eval -->|Trả về Root Cause & Solution dự kiến| WriteComment
+    FindRC_Flow -->|Trả về Root Cause & Solution| WriteComment
