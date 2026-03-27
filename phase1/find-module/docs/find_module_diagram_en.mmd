@@ -1,0 +1,43 @@
+flowchart LR
+    %% Defines styles for the node
+    classDef startEnd fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef ruleBased fill:#bbf,stroke:#333,stroke-width:2px;
+    classDef aiStep fill:#fbf,stroke:#333,stroke-width:2px;
+    classDef evalStep fill:#bfb,stroke:#333,stroke-width:2px;
+    classDef condition fill:#ffd,stroke:#333,stroke-width:2px;
+
+    %% Start of stream
+    Start(["Start: Read Defect_list JSON file"]):::startEnd --> RuleBased
+
+    %% Step 1: Rule-based
+    subgraph Giai_doan_1 ["1. Raw filtering using Rule-based"]
+        RuleBased["Scan Keyword & Calculate Score"]:::ruleBased --> GetTop2["Get Top 2 candidates with highest score"]:::ruleBased
+    end
+
+    GetTop2 --> HasCandidates{"Are there any qualified candidates?"}:::condition
+
+    HasCandidates -- "No (Score < Threshold)" --> AssignUnknown["Assign predicted_module = UNKNOWN"]:::ruleBased
+    HasCandidates -- "Yes" --> StartAILoop
+
+    %% Phase 2
+    subgraph Giai_doan_2 ["2. LLM degree appraisal"]
+        StartAILoop["Start browsing Top 2 candidates"]:::aiStep --> CallLLM
+        
+        CallLLM["Call LLM API <br> Ask: Is this Issue part of Module X?"]:::aiStep --> AIResult{"AI answer<br>True or False?"}:::condition
+        
+        AIResult -- "True" --> AssignModule["Assign Module X<br>Exit loop early"]:::aiStep
+        AIResult -- "False" --> CheckNext{"Is there a second<br>candidate?"}:::condition
+        
+        CheckNext -- "Still" --> NextCandidate["Move to the next candidate"]:::aiStep --> CallLLM
+        CheckNext -- "End" --> AssignUnknown
+    end
+
+    %% Phase 3
+    subgraph Giai_doan_3 ["3. Rendering & Evaluation"]
+        AssignModule --> SaveData
+        AssignUnknown --> SaveData
+        
+        SaveData["Save results to file<br>Defect_list_ai JSON"]:::evalStep --> RunEval["Run Statistics Script<br>Calculate Accuracy, Precision, Recall"]:::evalStep
+    end
+
+    RunEval --> End(["End of thread"]):::startEnd

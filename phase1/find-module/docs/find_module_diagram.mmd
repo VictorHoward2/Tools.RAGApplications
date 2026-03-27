@@ -1,0 +1,43 @@
+flowchart LR
+    %% Định nghĩa các style cho node
+    classDef startEnd fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef ruleBased fill:#bbf,stroke:#333,stroke-width:2px;
+    classDef aiStep fill:#fbf,stroke:#333,stroke-width:2px;
+    classDef evalStep fill:#bfb,stroke:#333,stroke-width:2px;
+    classDef condition fill:#ffd,stroke:#333,stroke-width:2px;
+
+    %% Bắt đầu luồng
+    Start(["Bắt đầu: Đọc file Defect_list JSON"]):::startEnd --> RuleBased
+
+    %% Bước 1: Rule-based
+    subgraph Giai_doan_1 ["1. Lọc thô bằng Rule-based"]
+        RuleBased["Quét Keyword & Tính điểm"]:::ruleBased --> GetTop2["Lấy Top 2 ứng viên có điểm cao nhất"]:::ruleBased
+    end
+
+    GetTop2 --> HasCandidates{"Có ứng viên nào<br>đạt yêu cầu không?"}:::condition
+
+    HasCandidates -- "Không (Điểm < Ngưỡng)" --> AssignUnknown["Gán predicted_module = UNKNOWN"]:::ruleBased
+    HasCandidates -- "Có" --> StartAILoop
+
+    %% Phase 2
+    subgraph Giai_doan_2 ["2. Thẩm định tinh bằng LLM"]
+        StartAILoop["Bắt đầu duyệt qua Top 2 ứng viên"]:::aiStep --> CallLLM
+        
+        CallLLM["Gọi LLM API <br> Hỏi: Issue này có thuộc Module X không?"]:::aiStep --> AIResult{"AI trả lời<br>True hay False?"}:::condition
+        
+        AIResult -- "True" --> AssignModule["Xác nhận Module X<br>Thoát vòng lặp sớm"]:::aiStep
+        AIResult -- "False" --> CheckNext{"Còn ứng viên<br>thứ 2 không?"}:::condition
+        
+        CheckNext -- "Còn" --> NextCandidate["Chuyển sang ứng viên tiếp theo"]:::aiStep --> CallLLM
+        CheckNext -- "Hết" --> AssignUnknown
+    end
+
+    %% Phase 3
+    subgraph Giai_doan_3 ["3. Kết xuất & Đánh giá"]
+        AssignModule --> SaveData
+        AssignUnknown --> SaveData
+        
+        SaveData["Lưu kết quả vào file<br>Defect_list_ai JSON"]:::evalStep --> RunEval["Chạy Script Thống kê<br>Tính Accuracy, Precision, Recall"]:::evalStep
+    end
+
+    RunEval --> End(["Kết thúc luồng xử lý"]):::startEnd
