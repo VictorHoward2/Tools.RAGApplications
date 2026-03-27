@@ -1,0 +1,22 @@
+flowchart LR
+    A([File CSV])
+    A --> B["<b>Raw JSON</b> <br/>────────────────────────<br/> <i> Information Include:</i><br/>case_code · type · title · request_reason · defect_type<br/>phenomena[] · root_cause · countermeasure<br/>resolution{…} · comments[]"]
+
+    B --> C([Preprocessing])
+    C --> D["<b>Preprocessed JSON</b> <br/>────────────────────────<br/> <i>Add Fields:</i><br/><b>search_text:</b> title, phenomena, defect category<br/><b>evidence_text:</b> important log lines from comments<br/>"]
+
+    D --> E([Embedding])
+    E --> F["<b>Vector index</b> <br/>────────────────────────<br/><i>Add Fields:</i><br/> <b>Vector embedding[]</b> per issue<br/><i>(Model embedding: BGE-M3)</i>"]
+
+    F --> G([RAG])
+    G --> H([Top-k Issue Similarity])
+    H --> I([Re-rank with LLM])
+    I --> J([Output])
+
+    classDef module fill:#EEF2FF,stroke:#4338CA,stroke-width:2px,color:#1E1B4B
+    classDef file fill:#F8FAFC,stroke:#64748B,stroke-width:2px,color:#0F172A
+    classDef runtime fill:#ECFDF5,stroke:#15803D,stroke-width:2px,color:#14532D
+
+    class A,C,E module
+    class B,D,F file
+    class G runtime

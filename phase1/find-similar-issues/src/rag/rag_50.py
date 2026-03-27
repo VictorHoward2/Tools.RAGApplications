@@ -41,15 +41,23 @@ def build_query_text(issue: dict[str, Any]) -> str:
     return (search_text + "\n" + evidence_text).strip()
 
 
-def snapshot_from_defect_json(row: dict[str, Any]) -> dict[str, Any]:
+def snapshot_from_defect_json(
+    row: dict[str, Any], 
+    rag_q: dict[str, Any], 
+    search_max: int, 
+    evidence_max: int
+) -> dict[str, Any]:
     """Fields for annotators: problem + resolution direction (ground context)."""
+    st = clean(rag_q.get("search_text"))
+    ev = clean(rag_q.get("evidence_text"))
+    
     return {
         "case_code": row.get("case_code"),
-        "type": row.get("type"),
-        "title": row.get("title"),
-        "request_reason": row.get("request_reason"),
+        "module_type": row.get("type"),
+        "search_text": st[:search_max] + ("…" if len(st) > search_max else ""),
+        "evidence_text": ev[:evidence_max] + ("…" if len(ev) > evidence_max else ""),
         "defect_type": row.get("defect_type"),
-        "phenomena": row.get("phenomena") or [],
+        "request_reason": row.get("request_reason"),
         "root_cause": clean(row.get("root_cause")),
         "countermeasure": clean(row.get("countermeasure")),
     }
@@ -64,12 +72,10 @@ def snapshot_hit_for_eval(rag_issue: dict[str, Any], *, search_max: int, evidenc
     return {
         "case_code": rag_issue.get("id"),
         "module_type": meta.get("type"),
+        "search_text": st[:search_max] + ("…" if len(st) > search_max else ""),
+        "evidence_text": ev[:evidence_max] + ("…" if len(ev) > evidence_max else ""),
         "defect_type": meta.get("defect_type"),
         "request_reason": meta.get("request_reason"),
-        "search_text": st[:search_max] + ("…" if len(st) > search_max else ""),
-        "search_text_was_truncated": len(st) > search_max,
-        "evidence_text": ev[:evidence_max] + ("…" if len(ev) > evidence_max else ""),
-        "evidence_text_was_truncated": len(ev) > evidence_max,
         "root_cause": clean(sol.get("root_cause")),
         "countermeasure": clean(sol.get("countermeasure")),
     }
@@ -83,9 +89,6 @@ def empty_hit_eval_slots(ranks_and_codes: list[tuple[int, str]]) -> dict[str, An
                 "rank": rank,
                 "case_code": code,
                 "problem_match": None,
-                "solution_direction_match": None,
-                "overall_score": None,
-                "comment": None,
             }
         )
     return {
@@ -107,7 +110,7 @@ def parse_args() -> argparse.Namespace:
         help="Output JSON path (default: data/719/rag_eval_batch.json next to Defect_list.json).",
     )
     p.add_argument("--search-max-chars", type=int, default=2000, help="Max chars of search_text per hit in export.")
-    p.add_argument("--evidence-max-chars", type=int, default=1500, help="Max chars of evidence_text per hit in export.")
+    p.add_argument("--evidence-max-chars", type=int, default=6000, help="Max chars of evidence_text per hit in export.")
     return p.parse_args()
 
 
@@ -196,15 +199,13 @@ def main() -> None:
                 "query_index": qi,
                 "source_row_index_in_defect_list_json": defect_idx,
                 "query": {
-                    "snapshot": snapshot_from_defect_json(row),
+                    "snapshot": snapshot_from_defect_json(row, rag_q, 
+                        search_max=args.search_max_chars, 
+                        evidence_max=args.evidence_max_chars),
                     "query_text_char_length": len(query_text),
                 },
                 "retrieval": hits,
                 "evaluation": {
-                    "criteria_hint": {
-                        "problem": "Cùng bản chất vấn đề (triệu chứng / ngữ cảnh kỹ thuật).",
-                        "solution_direction": "Cùng hướng xử lý / gợi ý fix (root cause + countermeasure tương đồng).",
-                    },
                     "ai": eval_ai,
                     "human": eval_human,
                 },
