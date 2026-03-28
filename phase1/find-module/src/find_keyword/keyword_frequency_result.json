@@ -1,0 +1,4012 @@
+{
+    "OMA": {
+        "testrunner:": {
+            "total_occurrences": 560,
+            "issue_count": 21
+        },
+        "11-14": {
+            "total_occurrences": 213,
+            "issue_count": 3
+        },
+        "sw>": {
+            "total_occurrences": 192,
+            "issue_count": 9
+        },
+        "started:": {
+            "total_occurrences": 172,
+            "issue_count": 21
+        },
+        "finished:": {
+            "total_occurrences": 154,
+            "issue_count": 20
+        },
+        "1068": {
+            "total_occurrences": 145,
+            "issue_count": 16
+        },
+        "11-28": {
+            "total_occurrences": 100,
+            "issue_count": 4
+        },
+        "2188": {
+            "total_occurrences": 99,
+            "issue_count": 3
+        },
+        "3645": {
+            "total_occurrences": 99,
+            "issue_count": 3
+        },
+        "04-17": {
+            "total_occurrences": 98,
+            "issue_count": 2
+        },
+        "859": {
+            "total_occurrences": 90,
+            "issue_count": 2
+        },
+        "[i]sem": {
+            "total_occurrences": 84,
+            "issue_count": 8
+        },
+        "mb": {
+            "total_occurrences": 81,
+            "issue_count": 1
+        },
+        "07-06": {
+            "total_occurrences": 79,
+            "issue_count": 2
+        },
+        "10-24": {
+            "total_occurrences": 68,
+            "issue_count": 1
+        },
+        "02-07": {
+            "total_occurrences": 68,
+            "issue_count": 1
+        },
+        "03-13": {
+            "total_occurrences": 68,
+            "issue_count": 2
+        },
+        "08-06": {
+            "total_occurrences": 68,
+            "issue_count": 1
+        },
+        "00:46:41.335": {
+            "total_occurrences": 66,
+            "issue_count": 1
+        },
+        "2404": {
+            "total_occurrences": 66,
+            "issue_count": 1
+        },
+        "5198": {
+            "total_occurrences": 66,
+            "issue_count": 1
+        },
+        "07-31": {
+            "total_occurrences": 65,
+            "issue_count": 2
+        },
+        "10-14": {
+            "total_occurrences": 65,
+            "issue_count": 1
+        },
+        "2397": {
+            "total_occurrences": 64,
+            "issue_count": 1
+        },
+        "05-08": {
+            "total_occurrences": 64,
+            "issue_count": 4
+        },
+        "[0:": {
+            "total_occurrences": 62,
+            "issue_count": 4
+        },
+        "apdu": {
+            "total_occurrences": 62,
+            "issue_count": 13
+        },
+        "07-11": {
+            "total_occurrences": 61,
+            "issue_count": 1
+        },
+        "[s5e5535]\r\n\r\n\r\n": {
+            "total_occurrences": 59,
+            "issue_count": 11
+        },
+        "com.android.se": {
+            "total_occurrences": 59,
+            "issue_count": 9
+        },
+        "java.lang.securityexception:": {
+            "total_occurrences": 58,
+            "issue_count": 11
+        },
+        "10-07": {
+            "total_occurrences": 57,
+            "issue_count": 1
+        },
+        "setupchannelaccess()java.security.accesscontrolexception:": {
+            "total_occurrences": 56,
+            "issue_count": 9
+        },
+        "secureelement-accesscontrolenforcerno": {
+            "total_occurrences": 56,
+            "issue_count": 9
+        },
+        "02-14": {
+            "total_occurrences": 55,
+            "issue_count": 1
+        },
+        "04-29": {
+            "total_occurrences": 55,
+            "issue_count": 2
+        },
+        "02-19": {
+            "total_occurrences": 55,
+            "issue_count": 2
+        },
+        "3102": {
+            "total_occurrences": 54,
+            "issue_count": 1
+        },
+        "04-23": {
+            "total_occurrences": 54,
+            "issue_count": 1
+        },
+        "apps:": {
+            "total_occurrences": 54,
+            "issue_count": 4
+        },
+        "760": {
+            "total_occurrences": 53,
+            "issue_count": 1
+        },
+        "cpu": {
+            "total_occurrences": 53,
+            "issue_count": 8
+        },
+        "03-06": {
+            "total_occurrences": 52,
+            "issue_count": 1
+        },
+        "irq/20-s2mpu:": {
+            "total_occurrences": 52,
+            "issue_count": 1
+        },
+        "06-07": {
+            "total_occurrences": 52,
+            "issue_count": 1
+        },
+        "0.0": {
+            "total_occurrences": 51,
+            "issue_count": 3
+        },
+        "10115": {
+            "total_occurrences": 51,
+            "issue_count": 3
+        },
+        "26090": {
+            "total_occurrences": 51,
+            "issue_count": 3
+        },
+        "waiver": {
+            "total_occurrences": 50,
+            "issue_count": 4
+        },
+        "1544": {
+            "total_occurrences": 48,
+            "issue_count": 1
+        },
+        "10363": {
+            "total_occurrences": 48,
+            "issue_count": 3
+        },
+        "[e]sem": {
+            "total_occurrences": 46,
+            "issue_count": 9
+        },
+        "06-14": {
+            "total_occurrences": 46,
+            "issue_count": 1
+        },
+        "[jcop6.5u]\r\n": {
+            "total_occurrences": 45,
+            "issue_count": 9
+        },
+        "10-25": {
+            "total_occurrences": 44,
+            "issue_count": 2
+        },
+        "11-07": {
+            "total_occurrences": 44,
+            "issue_count": 1
+        },
+        "1425": {
+            "total_occurrences": 44,
+            "issue_count": 1
+        },
+        "05-12": {
+            "total_occurrences": 44,
+            "issue_count": 2
+        },
+        "274": {
+            "total_occurrences": 44,
+            "issue_count": 1
+        },
+        "-----": {
+            "total_occurrences": 43,
+            "issue_count": 18
+        },
+        "27910": {
+            "total_occurrences": 43,
+            "issue_count": 1
+        },
+        "times)": {
+            "total_occurrences": 42,
+            "issue_count": 4
+        },
+        "duration:": {
+            "total_occurrences": 42,
+            "issue_count": 4
+        },
+        "10366": {
+            "total_occurrences": 42,
+            "issue_count": 3
+        },
+        "820": {
+            "total_occurrences": 41,
+            "issue_count": 2
+        },
+        "wake": {
+            "total_occurrences": 41,
+            "issue_count": 4
+        },
+        "2748": {
+            "total_occurrences": 41,
+            "issue_count": 2
+        },
+        "[jcop6.5u_00584b48]\r\n": {
+            "total_occurrences": 40,
+            "issue_count": 7
+        },
+        "04-01": {
+            "total_occurrences": 40,
+            "issue_count": 1
+        },
+        "1108": {
+            "total_occurrences": 40,
+            "issue_count": 1
+        },
+        "21027": {
+            "total_occurrences": 40,
+            "issue_count": 2
+        },
+        "22454": {
+            "total_occurrences": 39,
+            "issue_count": 3
+        },
+        "22466": {
+            "total_occurrences": 39,
+            "issue_count": 3
+        },
+        "3250": {
+            "total_occurrences": 39,
+            "issue_count": 1
+        },
+        "10265": {
+            "total_occurrences": 39,
+            "issue_count": 1
+        },
+        "3210": {
+            "total_occurrences": 39,
+            "issue_count": 1
+        },
+        "05-02": {
+            "total_occurrences": 38,
+            "issue_count": 2
+        },
+        "~iso7816/sec_apdu.c:": {
+            "total_occurrences": 38,
+            "issue_count": 9
+        },
+        "4565": {
+            "total_occurrences": 38,
+            "issue_count": 1
+        },
+        "23053": {
+            "total_occurrences": 38,
+            "issue_count": 1
+        },
+        "26488": {
+            "total_occurrences": 38,
+            "issue_count": 1
+        },
+        "4222": {
+            "total_occurrences": 38,
+            "issue_count": 1
+        },
+        "08-25": {
+            "total_occurrences": 38,
+            "issue_count": 1
+        },
+        "81": {
+            "total_occurrences": 37,
+            "issue_count": 2
+        },
+        "09-21": {
+            "total_occurrences": 37,
+            "issue_count": 1
+        },
+        "native:": {
+            "total_occurrences": 36,
+            "issue_count": 5
+        },
+        "pc": {
+            "total_occurrences": 36,
+            "issue_count": 5
+        },
+        "1743": {
+            "total_occurrences": 36,
+            "issue_count": 1
+        },
+        "13:20:52.632": {
+            "total_occurrences": 36,
+            "issue_count": 3
+        },
+        "10227": {
+            "total_occurrences": 36,
+            "issue_count": 1
+        },
+        "(buildid:": {
+            "total_occurrences": 35,
+            "issue_count": 5
+        },
+        "[2:tz_iwlog_thread:": {
+            "total_occurrences": 35,
+            "issue_count": 4
+        },
+        "7630": {
+            "total_occurrences": 35,
+            "issue_count": 1
+        },
+        "1133": {
+            "total_occurrences": 35,
+            "issue_count": 1
+        },
+        "tests\r\n": {
+            "total_occurrences": 34,
+            "issue_count": 20
+        },
+        "load:": {
+            "total_occurrences": 34,
+            "issue_count": 2
+        },
+        "09-03": {
+            "total_occurrences": 34,
+            "issue_count": 1
+        },
+        "14510": {
+            "total_occurrences": 34,
+            "issue_count": 1
+        },
+        "28011": {
+            "total_occurrences": 34,
+            "issue_count": 1
+        },
+        "28044": {
+            "total_occurrences": 34,
+            "issue_count": 1
+        },
+        "thales_hal:": {
+            "total_occurrences": 33,
+            "issue_count": 4
+        },
+        "1015": {
+            "total_occurrences": 33,
+            "issue_count": 1
+        },
+        "4034": {
+            "total_occurrences": 33,
+            "issue_count": 1
+        },
+        "3171": {
+            "total_occurrences": 32,
+            "issue_count": 3
+        },
+        "2761": {
+            "total_occurrences": 32,
+            "issue_count": 1
+        },
+        "lee/smartphone": {
+            "total_occurrences": 32,
+            "issue_count": 17
+        },
+        "tool": {
+            "total_occurrences": 32,
+            "issue_count": 8
+        },
+        "985": {
+            "total_occurrences": 32,
+            "issue_count": 1
+        },
+        "(incoming)": {
+            "total_occurrences": 32,
+            "issue_count": 1
+        },
+        "kernel": {
+            "total_occurrences": 31,
+            "issue_count": 8
+        },
+        "%": {
+            "total_occurrences": 31,
+            "issue_count": 3
+        },
+        "~/pal/phnxpesepal.c:": {
+            "total_occurrences": 31,
+            "issue_count": 4
+        },
+        "1263": {
+            "total_occurrences": 31,
+            "issue_count": 2
+        },
+        "10319": {
+            "total_occurrences": 31,
+            "issue_count": 1
+        },
+        "22691": {
+            "total_occurrences": 31,
+            "issue_count": 1
+        },
+        "22709": {
+            "total_occurrences": 31,
+            "issue_count": 1
+        },
+        "804": {
+            "total_occurrences": 30,
+            "issue_count": 1
+        },
+        "10316": {
+            "total_occurrences": 30,
+            "issue_count": 1
+        },
+        "1216": {
+            "total_occurrences": 30,
+            "issue_count": 1
+        },
+        "-----\r\n": {
+            "total_occurrences": 30,
+            "issue_count": 17
+        },
+        "5356": {
+            "total_occurrences": 30,
+            "issue_count": 1
+        },
+        "nxpesehal:": {
+            "total_occurrences": 30,
+            "issue_count": 4
+        },
+        "05-13": {
+            "total_occurrences": 30,
+            "issue_count": 1
+        },
+        "5009": {
+            "total_occurrences": 30,
+            "issue_count": 2
+        },
+        "cts": {
+            "total_occurrences": 29,
+            "issue_count": 17
+        },
+        "service:": {
+            "total_occurrences": 29,
+            "issue_count": 9
+        },
+        "secureelementservice:": {
+            "total_occurrences": 29,
+            "issue_count": 10
+        },
+        "(power,": {
+            "total_occurrences": 29,
+            "issue_count": 4
+        },
+        "power/system": {
+            "total_occurrences": 29,
+            "issue_count": 4
+        },
+        "11664": {
+            "total_occurrences": 29,
+            "issue_count": 1
+        },
+        "231]": {
+            "total_occurrences": 29,
+            "issue_count": 1
+        },
+        "4953": {
+            "total_occurrences": 28,
+            "issue_count": 2
+        },
+        "1102": {
+            "total_occurrences": 28,
+            "issue_count": 1
+        },
+        "3664": {
+            "total_occurrences": 28,
+            "issue_count": 1
+        },
+        "8,0": {
+            "total_occurrences": 28,
+            "issue_count": 2
+        },
+        "f": {
+            "total_occurrences": 28,
+            "issue_count": 2
+        },
+        "802": {
+            "total_occurrences": 28,
+            "issue_count": 1
+        },
+        "9454": {
+            "total_occurrences": 28,
+            "issue_count": 1
+        },
+        "(a": {
+            "total_occurrences": 28,
+            "issue_count": 8
+        },
+        "2340": {
+            "total_occurrences": 28,
+            "issue_count": 1
+        },
+        "18258": {
+            "total_occurrences": 28,
+            "issue_count": 1
+        },
+        "3610": {
+            "total_occurrences": 28,
+            "issue_count": 1
+        },
+        "3623": {
+            "total_occurrences": 28,
+            "issue_count": 1
+        },
+        "10328": {
+            "total_occurrences": 28,
+            "issue_count": 1
+        },
+        "5329": {
+            "total_occurrences": 28,
+            "issue_count": 1
+        },
+        "1688": {
+            "total_occurrences": 28,
+            "issue_count": 1
+        },
+        "t343]": {
+            "total_occurrences": 28,
+            "issue_count": 1
+        },
+        "911": {
+            "total_occurrences": 28,
+            "issue_count": 1
+        },
+        "10337": {
+            "total_occurrences": 28,
+            "issue_count": 1
+        },
+        "20383": {
+            "total_occurrences": 28,
+            "issue_count": 1
+        },
+        "20395": {
+            "total_occurrences": 28,
+            "issue_count": 1
+        },
+        "12-27": {
+            "total_occurrences": 28,
+            "issue_count": 1
+        },
+        "com.android.se/.secureelementservice,": {
+            "total_occurrences": 27,
+            "issue_count": 4
+        },
+        "fault": {
+            "total_occurrences": 27,
+            "issue_count": 1
+        },
+        "binder:807_5:": {
+            "total_occurrences": 27,
+            "issue_count": 1
+        },
+        "heaviest_task_rss:binder:1640_2(1640)": {
+            "total_occurrences": 27,
+            "issue_count": 1
+        },
+        "kt": {
+            "total_occurrences": 27,
+            "issue_count": 1
+        },
+        "rw-tp": {
+            "total_occurrences": 27,
+            "issue_count": 1
+        },
+        "mb/s": {
+            "total_occurrences": 27,
+            "issue_count": 1
+        },
+        "inp": {
+            "total_occurrences": 27,
+            "issue_count": 1
+        },
+        "busy(": {
+            "total_occurrences": 27,
+            "issue_count": 1
+        },
+        "797": {
+            "total_occurrences": 27,
+            "issue_count": 1
+        },
+        "3388": {
+            "total_occurrences": 27,
+            "issue_count": 1
+        },
+        "5147": {
+            "total_occurrences": 27,
+            "issue_count": 1
+        },
+        "1859": {
+            "total_occurrences": 27,
+            "issue_count": 1
+        },
+        "1128": {
+            "total_occurrences": 27,
+            "issue_count": 1
+        },
+        "2969": {
+            "total_occurrences": 27,
+            "issue_count": 1
+        },
+        "5353": {
+            "total_occurrences": 27,
+            "issue_count": 1
+        },
+        "10354": {
+            "total_occurrences": 27,
+            "issue_count": 1
+        },
+        "10161": {
+            "total_occurrences": 27,
+            "issue_count": 1
+        },
+        "10173": {
+            "total_occurrences": 27,
+            "issue_count": 1
+        },
+        "2465": {
+            "total_occurrences": 27,
+            "issue_count": 1
+        },
+        "3360": {
+            "total_occurrences": 27,
+            "issue_count": 1
+        },
+        "\"ro.security.ese.cosname.default\"": {
+            "total_occurrences": 27,
+            "issue_count": 3
+        },
+        "totalram_pages:6898692kb\r\n": {
+            "total_occurrences": 26,
+            "issue_count": 1
+        },
+        "0.00": {
+            "total_occurrences": 26,
+            "issue_count": 1
+        },
+        ")@": {
+            "total_occurrences": 26,
+            "issue_count": 1
+        },
+        "ratio": {
+            "total_occurrences": 26,
+            "issue_count": 1
+        },
+        "%)@": {
+            "total_occurrences": 26,
+            "issue_count": 1
+        },
+        "19:34:08.862": {
+            "total_occurrences": 26,
+            "issue_count": 1
+        },
+        "15:54:09.471": {
+            "total_occurrences": 26,
+            "issue_count": 1
+        },
+        "prop_error_read_only_property": {
+            "total_occurrences": 26,
+            "issue_count": 3
+        },
+        "(0xb)\r\n": {
+            "total_occurrences": 26,
+            "issue_count": 3
+        },
+        "am_anr": {
+            "total_occurrences": 25,
+            "issue_count": 1
+        },
+        "route:": {
+            "total_occurrences": 25,
+            "issue_count": 9
+        },
+        "held": {
+            "total_occurrences": 25,
+            "issue_count": 8
+        },
+        "[ro.boot.serialno]:": {
+            "total_occurrences": 25,
+            "issue_count": 7
+        },
+        "156]": {
+            "total_occurrences": 25,
+            "issue_count": 2
+        },
+        "06:45:45.283": {
+            "total_occurrences": 25,
+            "issue_count": 1
+        },
+        "10-09": {
+            "total_occurrences": 25,
+            "issue_count": 1
+        },
+        "10120": {
+            "total_occurrences": 25,
+            "issue_count": 1
+        },
+        "20074": {
+            "total_occurrences": 25,
+            "issue_count": 1
+        },
+        "11-30": {
+            "total_occurrences": 25,
+            "issue_count": 1
+        },
+        "allowed!\r\nno": {
+            "total_occurrences": 25,
+            "issue_count": 4
+        },
+        "found\r\n?\r\nno": {
+            "total_occurrences": 25,
+            "issue_count": 4
+        },
+        "present": {
+            "total_occurrences": 25,
+            "issue_count": 4
+        },
+        "10086": {
+            "total_occurrences": 25,
+            "issue_count": 1
+        },
+        "16220": {
+            "total_occurrences": 25,
+            "issue_count": 1
+        },
+        "03-14": {
+            "total_occurrences": 25,
+            "issue_count": 1
+        },
+        "10090": {
+            "total_occurrences": 25,
+            "issue_count": 1
+        }
+    },
+    "SKMSAgent": {
+        "sw>": {
+            "total_occurrences": 775,
+            "issue_count": 28
+        },
+        "(--------)": {
+            "total_occurrences": 429,
+            "issue_count": 1
+        },
+        "samsungwallet:": {
+            "total_occurrences": 318,
+            "issue_count": 46
+        },
+        "#000000": {
+            "total_occurrences": 243,
+            "issue_count": 5
+        },
+        "01-13": {
+            "total_occurrences": 236,
+            "issue_count": 5
+        },
+        "line": {
+            "total_occurrences": 226,
+            "issue_count": 15
+        },
+        "[e]sem": {
+            "total_occurrences": 222,
+            "issue_count": 28
+        },
+        "[7:tz_iwlog_thread:": {
+            "total_occurrences": 221,
+            "issue_count": 13
+        },
+        "[i]sem": {
+            "total_occurrences": 218,
+            "issue_count": 28
+        },
+        "(----)": {
+            "total_occurrences": 213,
+            "issue_count": 1
+        },
+        "correct": {
+            "total_occurrences": 174,
+            "issue_count": 35
+        },
+        "06-06": {
+            "total_occurrences": 173,
+            "issue_count": 3
+        },
+        "cifrequest": {
+            "total_occurrences": 159,
+            "issue_count": 8
+        },
+        "5279": {
+            "total_occurrences": 149,
+            "issue_count": 18
+        },
+        "lee/security": {
+            "total_occurrences": 142,
+            "issue_count": 115
+        },
+        "[esecontroller]": {
+            "total_occurrences": 140,
+            "issue_count": 13
+        },
+        "1252": {
+            "total_occurrences": 131,
+            "issue_count": 2
+        },
+        "samsungwallet[cn]:": {
+            "total_occurrences": 131,
+            "issue_count": 7
+        },
+        "~iso7816/sec_apdu.c:": {
+            "total_occurrences": 130,
+            "issue_count": 28
+        },
+        "~6/gem/gto-secese.c:": {
+            "total_occurrences": 130,
+            "issue_count": 17
+        },
+        "[2:tz_iwlog_thread:": {
+            "total_occurrences": 130,
+            "issue_count": 13
+        },
+        "11-26": {
+            "total_occurrences": 129,
+            "issue_count": 2
+        },
+        "body)\r\n": {
+            "total_occurrences": 127,
+            "issue_count": 9
+        },
+        "(donghoon": {
+            "total_occurrences": 126,
+            "issue_count": 110
+        },
+        "h2": {
+            "total_occurrences": 126,
+            "issue_count": 8
+        },
+        "ese_not_open\r\n": {
+            "total_occurrences": 118,
+            "issue_count": 17
+        },
+        "01-09": {
+            "total_occurrences": 110,
+            "issue_count": 1
+        },
+        "application:": {
+            "total_occurrences": 108,
+            "issue_count": 1
+        },
+        "install": {
+            "total_occurrences": 106,
+            "issue_count": 15
+        },
+        "loaded": {
+            "total_occurrences": 100,
+            "issue_count": 2
+        },
+        "sec.": {
+            "total_occurrences": 99,
+            "issue_count": 2
+        },
+        "244]": {
+            "total_occurrences": 97,
+            "issue_count": 4
+        },
+        "selectable": {
+            "total_occurrences": 95,
+            "issue_count": 2
+        },
+        "04-22": {
+            "total_occurrences": 93,
+            "issue_count": 1
+        },
+        "11-12": {
+            "total_occurrences": 93,
+            "issue_count": 2
+        },
+        "13055": {
+            "total_occurrences": 93,
+            "issue_count": 1
+        },
+        "[com.unionpay.tsmservice]": {
+            "total_occurrences": 92,
+            "issue_count": 46
+        },
+        "skms": {
+            "total_occurrences": 91,
+            "issue_count": 44
+        },
+        "[com.samsung.android.spayfw]": {
+            "total_occurrences": 91,
+            "issue_count": 46
+        },
+        "[ro.security.esebap]:": {
+            "total_occurrences": 90,
+            "issue_count": 19
+        },
+        "10110": {
+            "total_occurrences": 89,
+            "issue_count": 1
+        },
+        "12-17": {
+            "total_occurrences": 89,
+            "issue_count": 2
+        },
+        "~16/gem/transport.c:": {
+            "total_occurrences": 88,
+            "issue_count": 13
+        },
+        "[3:tz_iwlog_thread:": {
+            "total_occurrences": 87,
+            "issue_count": 13
+        },
+        "2024.09.24.1\r\n": {
+            "total_occurrences": 86,
+            "issue_count": 21
+        },
+        "domain:personalized": {
+            "total_occurrences": 84,
+            "issue_count": 1
+        },
+        "(s-------)": {
+            "total_occurrences": 84,
+            "issue_count": 1
+        },
+        "state]\r\n": {
+            "total_occurrences": 84,
+            "issue_count": 21
+        },
+        "12-23": {
+            "total_occurrences": 83,
+            "issue_count": 2
+        },
+        "05-30": {
+            "total_occurrences": 83,
+            "issue_count": 2
+        },
+        "01-01": {
+            "total_occurrences": 82,
+            "issue_count": 3
+        },
+        "[s5e8855]\r\n\r\n\r\n": {
+            "total_occurrences": 82,
+            "issue_count": 16
+        },
+        "9000\r\n": {
+            "total_occurrences": 81,
+            "issue_count": 39
+        },
+        "permission": {
+            "total_occurrences": 81,
+            "issue_count": 21
+        },
+        "closing": {
+            "total_occurrences": 80,
+            "issue_count": 24
+        },
+        "10336": {
+            "total_occurrences": 80,
+            "issue_count": 1
+        },
+        "[ut9.0t]\r\n": {
+            "total_occurrences": 79,
+            "issue_count": 17
+        },
+        "12-03": {
+            "total_occurrences": 78,
+            "issue_count": 3
+        },
+        "digitalkey:": {
+            "total_occurrences": 78,
+            "issue_count": 6
+        },
+        "1159": {
+            "total_occurrences": 78,
+            "issue_count": 2
+        },
+        "innovation": {
+            "total_occurrences": 77,
+            "issue_count": 9
+        },
+        "[1:tz_iwlog_thread:": {
+            "total_occurrences": 76,
+            "issue_count": 12
+        },
+        "05-04": {
+            "total_occurrences": 76,
+            "issue_count": 2
+        },
+        "[ut9.0u]\r\n": {
+            "total_occurrences": 76,
+            "issue_count": 8
+        },
+        "12-29": {
+            "total_occurrences": 75,
+            "issue_count": 2
+        },
+        "channel\r\n": {
+            "total_occurrences": 75,
+            "issue_count": 20
+        },
+        "2318": {
+            "total_occurrences": 74,
+            "issue_count": 2
+        },
+        "12-06": {
+            "total_occurrences": 74,
+            "issue_count": 2
+        },
+        "m6": {
+            "total_occurrences": 73,
+            "issue_count": 7
+        },
+        "(\r\n": {
+            "total_occurrences": 73,
+            "issue_count": 7
+        },
+        "/log_s947b_applet": {
+            "total_occurrences": 73,
+            "issue_count": 1
+        },
+        "16:38:43.731": {
+            "total_occurrences": 72,
+            "issue_count": 1
+        },
+        "6707": {
+            "total_occurrences": 72,
+            "issue_count": 1
+        },
+        "10969": {
+            "total_occurrences": 72,
+            "issue_count": 1
+        },
+        "requestcontextbuilder:": {
+            "total_occurrences": 72,
+            "issue_count": 1
+        },
+        "--": {
+            "total_occurrences": 72,
+            "issue_count": 15
+        },
+        "05-16": {
+            "total_occurrences": 72,
+            "issue_count": 1
+        },
+        "1109": {
+            "total_occurrences": 69,
+            "issue_count": 2
+        },
+        "correct.": {
+            "total_occurrences": 67,
+            "issue_count": 20
+        },
+        "gtospi_transceive": {
+            "total_occurrences": 67,
+            "issue_count": 18
+        },
+        "@long,\r\nplease": {
+            "total_occurrences": 66,
+            "issue_count": 66
+        },
+        "99:": {
+            "total_occurrences": 66,
+            "issue_count": 17
+        },
+        "11-27": {
+            "total_occurrences": 65,
+            "issue_count": 1
+        },
+        "[5:tz_iwlog_thread:": {
+            "total_occurrences": 65,
+            "issue_count": 7
+        },
+        "[com.samsung.android.spayfw]\r\n": {
+            "total_occurrences": 64,
+            "issue_count": 22
+        },
+        "05-06": {
+            "total_occurrences": 64,
+            "issue_count": 2
+        },
+        "align='left'": {
+            "total_occurrences": 64,
+            "issue_count": 5
+        },
+        "194:": {
+            "total_occurrences": 64,
+            "issue_count": 17
+        },
+        "gtospi_close": {
+            "total_occurrences": 64,
+            "issue_count": 17
+        },
+        "12-04": {
+            "total_occurrences": 64,
+            "issue_count": 2
+        },
+        "employee/wallet": {
+            "total_occurrences": 63,
+            "issue_count": 24
+        },
+        "(rpa": {
+            "total_occurrences": 62,
+            "issue_count": 2
+        },
+        "bot": {
+            "total_occurrences": 62,
+            "issue_count": 2
+        },
+        "rd6/business": {
+            "total_occurrences": 62,
+            "issue_count": 2
+        },
+        "05-29": {
+            "total_occurrences": 62,
+            "issue_count": 1
+        },
+        "samsung_r-sdk:": {
+            "total_occurrences": 62,
+            "issue_count": 1
+        },
+        "agent": {
+            "total_occurrences": 61,
+            "issue_count": 14
+        },
+        "1px;border-right:solid": {
+            "total_occurrences": 61,
+            "issue_count": 5
+        },
+        "07-14": {
+            "total_occurrences": 61,
+            "issue_count": 1
+        },
+        "nga/security": {
+            "total_occurrences": 60,
+            "issue_count": 37
+        },
+        "keymint_swd:": {
+            "total_occurrences": 60,
+            "issue_count": 3
+        },
+        "keymint_swd": {
+            "total_occurrences": 60,
+            "issue_count": 3
+        },
+        "1px;border-bottom:solid": {
+            "total_occurrences": 60,
+            "issue_count": 5
+        },
+        "1px;border-left:solid": {
+            "total_occurrences": 60,
+            "issue_count": 5
+        },
+        "1px;text-align:left;'": {
+            "total_occurrences": 60,
+            "issue_count": 5
+        },
+        "263]": {
+            "total_occurrences": 60,
+            "issue_count": 2
+        },
+        "258]": {
+            "total_occurrences": 60,
+            "issue_count": 2
+        },
+        "[com.samsung.android.spay]": {
+            "total_occurrences": 59,
+            "issue_count": 52
+        },
+        "(do": {
+            "total_occurrences": 59,
+            "issue_count": 37
+        },
+        "l3": {
+            "total_occurrences": 59,
+            "issue_count": 8
+        },
+        "2354": {
+            "total_occurrences": 59,
+            "issue_count": 2
+        },
+        "spay:esechntacontroller:": {
+            "total_occurrences": 58,
+            "issue_count": 6
+        },
+        "l2": {
+            "total_occurrences": 58,
+            "issue_count": 9
+        },
+        "[0:tz_iwlog_thread:": {
+            "total_occurrences": 58,
+            "issue_count": 10
+        },
+        "\":": {
+            "total_occurrences": 58,
+            "issue_count": 1
+        },
+        "digital_key_ta_entry:": {
+            "total_occurrences": 57,
+            "issue_count": 20
+        },
+        "[m1_access_card]": {
+            "total_occurrences": 57,
+            "issue_count": 11
+        },
+        "10325": {
+            "total_occurrences": 56,
+            "issue_count": 5
+        },
+        "262": {
+            "total_occurrences": 56,
+            "issue_count": 2
+        },
+        "google": {
+            "total_occurrences": 55,
+            "issue_count": 13
+        },
+        "aid": {
+            "total_occurrences": 55,
+            "issue_count": 12
+        },
+        "05-14": {
+            "total_occurrences": 55,
+            "issue_count": 1
+        },
+        "153:": {
+            "total_occurrences": 55,
+            "issue_count": 13
+        },
+        "06-05": {
+            "total_occurrences": 55,
+            "issue_count": 1
+        },
+        "kms": {
+            "total_occurrences": 54,
+            "issue_count": 10
+        },
+        "routed": {
+            "total_occurrences": 54,
+            "issue_count": 14
+        },
+        "14269": {
+            "total_occurrences": 54,
+            "issue_count": 1
+        },
+        "01-12": {
+            "total_occurrences": 54,
+            "issue_count": 3
+        },
+        "[cifreqmanager]": {
+            "total_occurrences": 53,
+            "issue_count": 9
+        },
+        "248]": {
+            "total_occurrences": 53,
+            "issue_count": 2
+        },
+        "23831": {
+            "total_occurrences": 53,
+            "issue_count": 1
+        },
+        "6864": {
+            "total_occurrences": 53,
+            "issue_count": 1
+        },
+        "/contents/v1.2/sch/wallet": {
+            "total_occurrences": 53,
+            "issue_count": 8
+        },
+        "457:": {
+            "total_occurrences": 52,
+            "issue_count": 15
+        },
+        "2096": {
+            "total_occurrences": 52,
+            "issue_count": 1
+        },
+        "sec_ese_mw_ril:": {
+            "total_occurrences": 51,
+            "issue_count": 11
+        },
+        "243": {
+            "total_occurrences": 51,
+            "issue_count": 1
+        },
+        "digitalkey": {
+            "total_occurrences": 51,
+            "issue_count": 23
+        },
+        "servicemanager:": {
+            "total_occurrences": 51,
+            "issue_count": 22
+        },
+        "m4": {
+            "total_occurrences": 51,
+            "issue_count": 6
+        },
+        "ta_closesessionentrypoint": {
+            "total_occurrences": 51,
+            "issue_count": 20
+        },
+        "~common/sem/scpkm.c:": {
+            "total_occurrences": 51,
+            "issue_count": 12
+        },
+        "12-08": {
+            "total_occurrences": 51,
+            "issue_count": 1
+        },
+        "3618": {
+            "total_occurrences": 50,
+            "issue_count": 1
+        },
+        "clear_memory\r\n": {
+            "total_occurrences": 50,
+            "issue_count": 20
+        },
+        "2546": {
+            "total_occurrences": 50,
+            "issue_count": 1
+        },
+        "846": {
+            "total_occurrences": 50,
+            "issue_count": 1
+        },
+        "01-23": {
+            "total_occurrences": 50,
+            "issue_count": 1
+        },
+        "1270": {
+            "total_occurrences": 49,
+            "issue_count": 2
+        },
+        "b7": {
+            "total_occurrences": 49,
+            "issue_count": 6
+        },
+        "1282": {
+            "total_occurrences": 49,
+            "issue_count": 3
+        },
+        "05-20": {
+            "total_occurrences": 49,
+            "issue_count": 2
+        },
+        "09-03": {
+            "total_occurrences": 49,
+            "issue_count": 1
+        },
+        "sec_ese_servicemanager:": {
+            "total_occurrences": 48,
+            "issue_count": 25
+        },
+        "opened\r\n": {
+            "total_occurrences": 48,
+            "issue_count": 9
+        },
+        "07-05": {
+            "total_occurrences": 48,
+            "issue_count": 1
+        },
+        "2895": {
+            "total_occurrences": 48,
+            "issue_count": 1
+        },
+        "5466": {
+            "total_occurrences": 47,
+            "issue_count": 3
+        },
+        "digitalkeyccc:": {
+            "total_occurrences": 47,
+            "issue_count": 11
+        },
+        "\",": {
+            "total_occurrences": 47,
+            "issue_count": 3
+        },
+        "versionname=01.00.00\r\n": {
+            "total_occurrences": 46,
+            "issue_count": 46
+        },
+        "[ut8.2u]\r\n": {
+            "total_occurrences": 46,
+            "issue_count": 8
+        },
+        "spayfw_esescp03helper:": {
+            "total_occurrences": 46,
+            "issue_count": 12
+        },
+        "3259": {
+            "total_occurrences": 46,
+            "issue_count": 2
+        },
+        "08-19": {
+            "total_occurrences": 46,
+            "issue_count": 1
+        },
+        "779": {
+            "total_occurrences": 46,
+            "issue_count": 1
+        },
+        "values": {
+            "total_occurrences": 46,
+            "issue_count": 9
+        },
+        "12-31": {
+            "total_occurrences": 46,
+            "issue_count": 1
+        },
+        "2642": {
+            "total_occurrences": 46,
+            "issue_count": 2
+        },
+        "11-14": {
+            "total_occurrences": 46,
+            "issue_count": 1
+        },
+        "different": {
+            "total_occurrences": 45,
+            "issue_count": 36
+        },
+        "1112": {
+            "total_occurrences": 45,
+            "issue_count": 2
+        },
+        "compatible": {
+            "total_occurrences": 44,
+            "issue_count": 10
+        },
+        "module": {
+            "total_occurrences": 44,
+            "issue_count": 7
+        },
+        "iccc": {
+            "total_occurrences": 44,
+            "issue_count": 17
+        },
+        "u": {
+            "total_occurrences": 44,
+            "issue_count": 27
+        },
+        "m5": {
+            "total_occurrences": 44,
+            "issue_count": 7
+        },
+        "1093": {
+            "total_occurrences": 44,
+            "issue_count": 2
+        },
+        "242]": {
+            "total_occurrences": 44,
+            "issue_count": 2
+        },
+        "activitythread:": {
+            "total_occurrences": 44,
+            "issue_count": 3
+        },
+        "[err]": {
+            "total_occurrences": 43,
+            "issue_count": 2
+        },
+        "style='font-weight:400;font-size:": {
+            "total_occurrences": 43,
+            "issue_count": 5
+        },
+        "09-30": {
+            "total_occurrences": 43,
+            "issue_count": 2
+        },
+        "12-30": {
+            "total_occurrences": 43,
+            "issue_count": 2
+        },
+        "1992": {
+            "total_occurrences": 43,
+            "issue_count": 2
+        },
+        "1516": {
+            "total_occurrences": 43,
+            "issue_count": 2
+        },
+        "850": {
+            "total_occurrences": 43,
+            "issue_count": 1
+        },
+        "06-01": {
+            "total_occurrences": 43,
+            "issue_count": 1
+        },
+        "6730": {
+            "total_occurrences": 43,
+            "issue_count": 1
+        },
+        "07-22": {
+            "total_occurrences": 43,
+            "issue_count": 1
+        },
+        "1153": {
+            "total_occurrences": 43,
+            "issue_count": 1
+        },
+        "route:": {
+            "total_occurrences": 42,
+            "issue_count": 14
+        },
+        "lee/wallet": {
+            "total_occurrences": 42,
+            "issue_count": 19
+        },
+        "??;color:#000000;border-top:solid": {
+            "total_occurrences": 42,
+            "issue_count": 5
+        },
+        "12-12": {
+            "total_occurrences": 42,
+            "issue_count": 1
+        },
+        "10911": {
+            "total_occurrences": 42,
+            "issue_count": 1
+        },
+        "01-07": {
+            "total_occurrences": 42,
+            "issue_count": 1
+        },
+        "1550": {
+            "total_occurrences": 42,
+            "issue_count": 1
+        },
+        "2585": {
+            "total_occurrences": 42,
+            "issue_count": 1
+        },
+        "3489": {
+            "total_occurrences": 42,
+            "issue_count": 1
+        }
+    },
+    "SEM": {
+        "sw>": {
+            "total_occurrences": 495,
+            "issue_count": 19
+        },
+        "testrunner:": {
+            "total_occurrences": 358,
+            "issue_count": 13
+        },
+        "04-11": {
+            "total_occurrences": 194,
+            "issue_count": 4
+        },
+        "[i]sem": {
+            "total_occurrences": 193,
+            "issue_count": 13
+        },
+        "[3:tz_iwlog_thread:": {
+            "total_occurrences": 158,
+            "issue_count": 13
+        },
+        "08-18": {
+            "total_occurrences": 147,
+            "issue_count": 3
+        },
+        "line": {
+            "total_occurrences": 132,
+            "issue_count": 9
+        },
+        "samsungwallet:": {
+            "total_occurrences": 130,
+            "issue_count": 21
+        },
+        "01-01": {
+            "total_occurrences": 121,
+            "issue_count": 4
+        },
+        "sec_ese_mw_ril:": {
+            "total_occurrences": 120,
+            "issue_count": 22
+        },
+        "[e]sem": {
+            "total_occurrences": 119,
+            "issue_count": 17
+        },
+        "08-21": {
+            "total_occurrences": 116,
+            "issue_count": 4
+        },
+        "10338": {
+            "total_occurrences": 112,
+            "issue_count": 4
+        },
+        "26627": {
+            "total_occurrences": 112,
+            "issue_count": 4
+        },
+        "26639": {
+            "total_occurrences": 112,
+            "issue_count": 4
+        },
+        "digitalkeyccc:": {
+            "total_occurrences": 107,
+            "issue_count": 5
+        },
+        "01-03": {
+            "total_occurrences": 106,
+            "issue_count": 3
+        },
+        "trend": {
+            "total_occurrences": 102,
+            "issue_count": 3
+        },
+        "589": {
+            "total_occurrences": 102,
+            "issue_count": 1
+        },
+        "~16/gem/transport.c:": {
+            "total_occurrences": 91,
+            "issue_count": 7
+        },
+        "1068": {
+            "total_occurrences": 89,
+            "issue_count": 18
+        },
+        "06-17": {
+            "total_occurrences": 89,
+            "issue_count": 2
+        },
+        "486": {
+            "total_occurrences": 88,
+            "issue_count": 1
+        },
+        "init:": {
+            "total_occurrences": 86,
+            "issue_count": 9
+        },
+        "01-07": {
+            "total_occurrences": 84,
+            "issue_count": 2
+        },
+        "861": {
+            "total_occurrences": 84,
+            "issue_count": 3
+        },
+        "02-16": {
+            "total_occurrences": 83,
+            "issue_count": 2
+        },
+        "11-11": {
+            "total_occurrences": 83,
+            "issue_count": 2
+        },
+        "digitalkey:": {
+            "total_occurrences": 83,
+            "issue_count": 6
+        },
+        "08-01": {
+            "total_occurrences": 81,
+            "issue_count": 2
+        },
+        "~iso7816/sec_apdu.c:": {
+            "total_occurrences": 80,
+            "issue_count": 14
+        },
+        "[0:tz_iwlog_thread:": {
+            "total_occurrences": 80,
+            "issue_count": 10
+        },
+        "debug": {
+            "total_occurrences": 80,
+            "issue_count": 7
+        },
+        "s:": {
+            "total_occurrences": 80,
+            "issue_count": 5
+        },
+        "9000\r\n": {
+            "total_occurrences": 79,
+            "issue_count": 31
+        },
+        "4782": {
+            "total_occurrences": 79,
+            "issue_count": 2
+        },
+        "09-15": {
+            "total_occurrences": 78,
+            "issue_count": 1
+        },
+        "12-04": {
+            "total_occurrences": 78,
+            "issue_count": 1
+        },
+        "[s5e9955]\r\n\r\n\r\n": {
+            "total_occurrences": 76,
+            "issue_count": 5
+        },
+        "292]": {
+            "total_occurrences": 76,
+            "issue_count": 2
+        },
+        "tank": {
+            "total_occurrences": 74,
+            "issue_count": 3
+        },
+        "08-14": {
+            "total_occurrences": 74,
+            "issue_count": 2
+        },
+        "06-19": {
+            "total_occurrences": 71,
+            "issue_count": 2
+        },
+        "thales_hal:": {
+            "total_occurrences": 70,
+            "issue_count": 13
+        },
+        "--": {
+            "total_occurrences": 70,
+            "issue_count": 9
+        },
+        "spi:": {
+            "total_occurrences": 68,
+            "issue_count": 15
+        },
+        "07-25": {
+            "total_occurrences": 68,
+            "issue_count": 2
+        },
+        "device-": {
+            "total_occurrences": 68,
+            "issue_count": 3
+        },
+        "04-09": {
+            "total_occurrences": 68,
+            "issue_count": 2
+        },
+        "30605": {
+            "total_occurrences": 68,
+            "issue_count": 1
+        },
+        "routed": {
+            "total_occurrences": 67,
+            "issue_count": 14
+        },
+        "started:": {
+            "total_occurrences": 67,
+            "issue_count": 13
+        },
+        "22612": {
+            "total_occurrences": 66,
+            "issue_count": 1
+        },
+        "[com.unionpay.tsmservice]": {
+            "total_occurrences": 64,
+            "issue_count": 32
+        },
+        "[com.samsung.android.spayfw]": {
+            "total_occurrences": 64,
+            "issue_count": 32
+        },
+        "347]": {
+            "total_occurrences": 64,
+            "issue_count": 2
+        },
+        "11-26": {
+            "total_occurrences": 64,
+            "issue_count": 1
+        },
+        "894": {
+            "total_occurrences": 64,
+            "issue_count": 1
+        },
+        "14123": {
+            "total_occurrences": 64,
+            "issue_count": 1
+        },
+        "1327": {
+            "total_occurrences": 64,
+            "issue_count": 1
+        },
+        "opened\r\n": {
+            "total_occurrences": 63,
+            "issue_count": 14
+        },
+        "807": {
+            "total_occurrences": 62,
+            "issue_count": 2
+        },
+        "(\r\n": {
+            "total_occurrences": 62,
+            "issue_count": 6
+        },
+        "[s5e8845]\r\n\r\n\r\n": {
+            "total_occurrences": 61,
+            "issue_count": 13
+        },
+        "04-14": {
+            "total_occurrences": 61,
+            "issue_count": 1
+        },
+        "2681": {
+            "total_occurrences": 61,
+            "issue_count": 1
+        },
+        "[ro.boot.revision]:": {
+            "total_occurrences": 60,
+            "issue_count": 19
+        },
+        "[0:": {
+            "total_occurrences": 60,
+            "issue_count": 13
+        },
+        "dck": {
+            "total_occurrences": 60,
+            "issue_count": 6
+        },
+        "08-22": {
+            "total_occurrences": 60,
+            "issue_count": 2
+        },
+        "08-20": {
+            "total_occurrences": 60,
+            "issue_count": 2
+        },
+        "1482": {
+            "total_occurrences": 59,
+            "issue_count": 2
+        },
+        "891": {
+            "total_occurrences": 59,
+            "issue_count": 2
+        },
+        "04-10": {
+            "total_occurrences": 59,
+            "issue_count": 1
+        },
+        "samsungwallet[cn]:": {
+            "total_occurrences": 59,
+            "issue_count": 3
+        },
+        "11-17": {
+            "total_occurrences": 59,
+            "issue_count": 1
+        },
+        "01-09": {
+            "total_occurrences": 58,
+            "issue_count": 1
+        },
+        "bank": {
+            "total_occurrences": 58,
+            "issue_count": 4
+        },
+        "==>": {
+            "total_occurrences": 58,
+            "issue_count": 5
+        },
+        "1]": {
+            "total_occurrences": 58,
+            "issue_count": 8
+        },
+        "1345": {
+            "total_occurrences": 57,
+            "issue_count": 1
+        },
+        "gm-c106": {
+            "total_occurrences": 57,
+            "issue_count": 3
+        },
+        "00": {
+            "total_occurrences": 56,
+            "issue_count": 5
+        },
+        "08:15:10.650": {
+            "total_occurrences": 56,
+            "issue_count": 4
+        },
+        "16766": {
+            "total_occurrences": 56,
+            "issue_count": 1
+        },
+        "nfcservice:": {
+            "total_occurrences": 55,
+            "issue_count": 6
+        },
+        "[ut8.2u]\r\n": {
+            "total_occurrences": 55,
+            "issue_count": 8
+        },
+        "spay": {
+            "total_occurrences": 54,
+            "issue_count": 1
+        },
+        "5111": {
+            "total_occurrences": 54,
+            "issue_count": 1
+        },
+        "~6/gem/gto-secese.c:": {
+            "total_occurrences": 54,
+            "issue_count": 7
+        },
+        "2378": {
+            "total_occurrences": 54,
+            "issue_count": 1
+        },
+        "06-23": {
+            "total_occurrences": 54,
+            "issue_count": 1
+        },
+        "12760": {
+            "total_occurrences": 54,
+            "issue_count": 1
+        },
+        "8879": {
+            "total_occurrences": 54,
+            "issue_count": 1
+        },
+        "472": {
+            "total_occurrences": 53,
+            "issue_count": 2
+        },
+        "f": {
+            "total_occurrences": 53,
+            "issue_count": 8
+        },
+        "secesespi_open": {
+            "total_occurrences": 53,
+            "issue_count": 18
+        },
+        "679": {
+            "total_occurrences": 52,
+            "issue_count": 2
+        },
+        "route:": {
+            "total_occurrences": 52,
+            "issue_count": 15
+        },
+        "1259": {
+            "total_occurrences": 51,
+            "issue_count": 2
+        },
+        "ese_not_open\r\n": {
+            "total_occurrences": 51,
+            "issue_count": 8
+        },
+        "4038": {
+            "total_occurrences": 51,
+            "issue_count": 1
+        },
+        "11-19": {
+            "total_occurrences": 51,
+            "issue_count": 1
+        },
+        "sec_nfc": {
+            "total_occurrences": 50,
+            "issue_count": 3
+        },
+        "gtospi_transceive": {
+            "total_occurrences": 49,
+            "issue_count": 9
+        },
+        "[1:tz_iwlog_thread:": {
+            "total_occurrences": 49,
+            "issue_count": 7
+        },
+        "10141": {
+            "total_occurrences": 49,
+            "issue_count": 2
+        },
+        "153:": {
+            "total_occurrences": 48,
+            "issue_count": 6
+        },
+        "[top]": {
+            "total_occurrences": 48,
+            "issue_count": 3
+        },
+        "[context": {
+            "total_occurrences": 48,
+            "issue_count": 5
+        },
+        "service_id=289": {
+            "total_occurrences": 48,
+            "issue_count": 5
+        },
+        "8148": {
+            "total_occurrences": 48,
+            "issue_count": 1
+        },
+        "2527": {
+            "total_occurrences": 48,
+            "issue_count": 1
+        },
+        "secureelementservice:": {
+            "total_occurrences": 47,
+            "issue_count": 7
+        },
+        "finished:": {
+            "total_occurrences": 47,
+            "issue_count": 12
+        },
+        "05-28": {
+            "total_occurrences": 47,
+            "issue_count": 1
+        },
+        "421]": {
+            "total_occurrences": 47,
+            "issue_count": 2
+        },
+        "777": {
+            "total_occurrences": 46,
+            "issue_count": 4
+        },
+        "02-27": {
+            "total_occurrences": 45,
+            "issue_count": 1
+        },
+        "[com.samsung.android.spay]": {
+            "total_occurrences": 44,
+            "issue_count": 38
+        },
+        "initialized": {
+            "total_occurrences": 43,
+            "issue_count": 15
+        },
+        "10308": {
+            "total_occurrences": 43,
+            "issue_count": 1
+        },
+        "14095": {
+            "total_occurrences": 43,
+            "issue_count": 1
+        },
+        "sec_ese_servicemanager:": {
+            "total_occurrences": 43,
+            "issue_count": 17
+        },
+        "03-23": {
+            "total_occurrences": 43,
+            "issue_count": 1
+        },
+        "[2:tz_iwlog_thread:": {
+            "total_occurrences": 43,
+            "issue_count": 7
+        },
+        "07-22": {
+            "total_occurrences": 43,
+            "issue_count": 1
+        },
+        "1291": {
+            "total_occurrences": 42,
+            "issue_count": 2
+        },
+        "script": {
+            "total_occurrences": 42,
+            "issue_count": 7
+        },
+        "02-26": {
+            "total_occurrences": 42,
+            "issue_count": 2
+        },
+        "2321": {
+            "total_occurrences": 42,
+            "issue_count": 1
+        },
+        "_openspidrv": {
+            "total_occurrences": 42,
+            "issue_count": 15
+        },
+        "4580": {
+            "total_occurrences": 42,
+            "issue_count": 1
+        },
+        "apps:": {
+            "total_occurrences": 42,
+            "issue_count": 3
+        },
+        "05-07": {
+            "total_occurrences": 42,
+            "issue_count": 1
+        },
+        "2902": {
+            "total_occurrences": 42,
+            "issue_count": 1
+        },
+        "4583": {
+            "total_occurrences": 42,
+            "issue_count": 1
+        },
+        "3120": {
+            "total_occurrences": 42,
+            "issue_count": 1
+        },
+        "4103": {
+            "total_occurrences": 42,
+            "issue_count": 1
+        },
+        "01-19": {
+            "total_occurrences": 42,
+            "issue_count": 1
+        },
+        "02-10": {
+            "total_occurrences": 42,
+            "issue_count": 1
+        },
+        "19913": {
+            "total_occurrences": 41,
+            "issue_count": 1
+        },
+        "847": {
+            "total_occurrences": 41,
+            "issue_count": 1
+        },
+        "1234": {
+            "total_occurrences": 41,
+            "issue_count": 2
+        },
+        "01-14": {
+            "total_occurrences": 41,
+            "issue_count": 1
+        },
+        "03-03": {
+            "total_occurrences": 41,
+            "issue_count": 1
+        },
+        "2419": {
+            "total_occurrences": 41,
+            "issue_count": 1
+        },
+        "activitythread:": {
+            "total_occurrences": 41,
+            "issue_count": 2
+        },
+        "2627": {
+            "total_occurrences": 41,
+            "issue_count": 1
+        },
+        "cnt": {
+            "total_occurrences": 40,
+            "issue_count": 14
+        },
+        "141:": {
+            "total_occurrences": 40,
+            "issue_count": 6
+        },
+        "04-04": {
+            "total_occurrences": 40,
+            "issue_count": 1
+        },
+        "04-19": {
+            "total_occurrences": 40,
+            "issue_count": 1
+        },
+        "2024.09.24.1\r\n": {
+            "total_occurrences": 40,
+            "issue_count": 6
+        },
+        "12-11": {
+            "total_occurrences": 40,
+            "issue_count": 1
+        },
+        "2594": {
+            "total_occurrences": 40,
+            "issue_count": 2
+        },
+        "10267": {
+            "total_occurrences": 40,
+            "issue_count": 4
+        },
+        "watch": {
+            "total_occurrences": 40,
+            "issue_count": 10
+        },
+        "2365": {
+            "total_occurrences": 40,
+            "issue_count": 1
+        },
+        "6834": {
+            "total_occurrences": 40,
+            "issue_count": 1
+        },
+        "2162": {
+            "total_occurrences": 40,
+            "issue_count": 1
+        },
+        "7744": {
+            "total_occurrences": 40,
+            "issue_count": 1
+        },
+        "05-29": {
+            "total_occurrences": 40,
+            "issue_count": 1
+        },
+        "09-16": {
+            "total_occurrences": 40,
+            "issue_count": 1
+        },
+        "02-14": {
+            "total_occurrences": 39,
+            "issue_count": 1
+        },
+        "bindservice": {
+            "total_occurrences": 39,
+            "issue_count": 3
+        },
+        "04-01": {
+            "total_occurrences": 39,
+            "issue_count": 1
+        },
+        "closing": {
+            "total_occurrences": 39,
+            "issue_count": 10
+        },
+        "09-12": {
+            "total_occurrences": 39,
+            "issue_count": 1
+        },
+        "2676": {
+            "total_occurrences": 39,
+            "issue_count": 1
+        },
+        "3929": {
+            "total_occurrences": 39,
+            "issue_count": 1
+        },
+        "1097": {
+            "total_occurrences": 39,
+            "issue_count": 1
+        },
+        "1750": {
+            "total_occurrences": 39,
+            "issue_count": 1
+        },
+        "2635": {
+            "total_occurrences": 39,
+            "issue_count": 1
+        },
+        "01-16": {
+            "total_occurrences": 39,
+            "issue_count": 1
+        },
+        "03-11": {
+            "total_occurrences": 39,
+            "issue_count": 1
+        },
+        "3142": {
+            "total_occurrences": 39,
+            "issue_count": 1
+        },
+        "4768": {
+            "total_occurrences": 39,
+            "issue_count": 1
+        },
+        "[sm8850]\r\n\r\n<file": {
+            "total_occurrences": 39,
+            "issue_count": 2
+        },
+        "990": {
+            "total_occurrences": 38,
+            "issue_count": 1
+        },
+        "secureelementservice": {
+            "total_occurrences": 38,
+            "issue_count": 2
+        },
+        "apk": {
+            "total_occurrences": 38,
+            "issue_count": 7
+        },
+        "correct": {
+            "total_occurrences": 38,
+            "issue_count": 14
+        },
+        "2683": {
+            "total_occurrences": 38,
+            "issue_count": 2
+        },
+        "3016": {
+            "total_occurrences": 38,
+            "issue_count": 1
+        },
+        "details": {
+            "total_occurrences": 38,
+            "issue_count": 5
+        },
+        "ese1": {
+            "total_occurrences": 38,
+            "issue_count": 9
+        },
+        "0.0%)": {
+            "total_occurrences": 38,
+            "issue_count": 3
+        },
+        "7661": {
+            "total_occurrences": 38,
+            "issue_count": 1
+        },
+        "779": {
+            "total_occurrences": 38,
+            "issue_count": 1
+        },
+        "16399": {
+            "total_occurrences": 38,
+            "issue_count": 1
+        },
+        "command": {
+            "total_occurrences": 37,
+            "issue_count": 9
+        },
+        "54": {
+            "total_occurrences": 37,
+            "issue_count": 4
+        },
+        "10-11": {
+            "total_occurrences": 37,
+            "issue_count": 1
+        },
+        "10-18": {
+            "total_occurrences": 37,
+            "issue_count": 1
+        },
+        "(tank/system": {
+            "total_occurrences": 37,
+            "issue_count": 3
+        },
+        "03-01": {
+            "total_occurrences": 37,
+            "issue_count": 1
+        },
+        "employee/wallet": {
+            "total_occurrences": 36,
+            "issue_count": 18
+        },
+        "[ro.build.version.release]:": {
+            "total_occurrences": 36,
+            "issue_count": 11
+        },
+        "r)(": {
+            "total_occurrences": 36,
+            "issue_count": 4
+        }
+    },
+    "SKPM": {
+        "skpm": {
+            "total_occurrences": 949,
+            "issue_count": 70
+        },
+        "5278": {
+            "total_occurrences": 570,
+            "issue_count": 50
+        },
+        "[com.samsung.android.authfw]\r\n": {
+            "total_occurrences": 488,
+            "issue_count": 51
+        },
+        "samsungaccount:": {
+            "total_occurrences": 371,
+            "issue_count": 7
+        },
+        "speed:": {
+            "total_occurrences": 346,
+            "issue_count": 36
+        },
+        "[pss2n6007]\r\n": {
+            "total_occurrences": 301,
+            "issue_count": 24
+        },
+        "08-01": {
+            "total_occurrences": 290,
+            "issue_count": 3
+        },
+        "01-26": {
+            "total_occurrences": 278,
+            "issue_count": 3
+        },
+        "skpm_injectedkeyverification": {
+            "total_occurrences": 250,
+            "issue_count": 51
+        },
+        "requested": {
+            "total_occurrences": 247,
+            "issue_count": 49
+        },
+        "mlo": {
+            "total_occurrences": 194,
+            "issue_count": 36
+        },
+        "[authfw][cmn]skpmoperation:": {
+            "total_occurrences": 183,
+            "issue_count": 28
+        },
+        "09-22": {
+            "total_occurrences": 181,
+            "issue_count": 2
+        },
+        "-1,": {
+            "total_occurrences": 173,
+            "issue_count": 39
+        },
+        "called,": {
+            "total_occurrences": 159,
+            "issue_count": 50
+        },
+        "23222": {
+            "total_occurrences": 153,
+            "issue_count": 1
+        },
+        "skpm_keyinjection": {
+            "total_occurrences": 152,
+            "issue_count": 47
+        },
+        "tx": {
+            "total_occurrences": 149,
+            "issue_count": 36
+        },
+        "rx": {
+            "total_occurrences": 143,
+            "issue_count": 36
+        },
+        "05-09": {
+            "total_occurrences": 142,
+            "issue_count": 1
+        },
+        "02:00:00:**:**:00,": {
+            "total_occurrences": 137,
+            "issue_count": 34
+        },
+        "10128": {
+            "total_occurrences": 134,
+            "issue_count": 6
+        },
+        "05-30": {
+            "total_occurrences": 134,
+            "issue_count": 3
+        },
+        "10106": {
+            "total_occurrences": 134,
+            "issue_count": 2
+        },
+        "06-27": {
+            "total_occurrences": 134,
+            "issue_count": 1
+        },
+        "name:": {
+            "total_occurrences": 133,
+            "issue_count": 36
+        },
+        "ap:": {
+            "total_occurrences": 129,
+            "issue_count": 36
+        },
+        "09-19": {
+            "total_occurrences": 125,
+            "issue_count": 2
+        },
+        "activitythread:": {
+            "total_occurrences": 124,
+            "issue_count": 11
+        },
+        "net": {
+            "total_occurrences": 123,
+            "issue_count": 51
+        },
+        "-20\r\n": {
+            "total_occurrences": 123,
+            "issue_count": 37
+        },
+        "03-10": {
+            "total_occurrences": 123,
+            "issue_count": 1
+        },
+        "[accountmanagerprovider]": {
+            "total_occurrences": 122,
+            "issue_count": 4
+        },
+        "transports:": {
+            "total_occurrences": 120,
+            "issue_count": 40
+        },
+        "minsdk=29": {
+            "total_occurrences": 119,
+            "issue_count": 30
+        },
+        "dns": {
+            "total_occurrences": 118,
+            "issue_count": 43
+        },
+        "01-04": {
+            "total_occurrences": 118,
+            "issue_count": 1
+        },
+        "01-29": {
+            "total_occurrences": 117,
+            "issue_count": 2
+        },
+        "01-31": {
+            "total_occurrences": 114,
+            "issue_count": 1
+        },
+        "[pass][pass]postuafserviceoperation:": {
+            "total_occurrences": 113,
+            "issue_count": 23
+        },
+        "02-01": {
+            "total_occurrences": 113,
+            "issue_count": 1
+        },
+        "inj": {
+            "total_occurrences": 111,
+            "issue_count": 34
+        },
+        "targetsdk=35\r\n": {
+            "total_occurrences": 108,
+            "issue_count": 29
+        },
+        "09-01": {
+            "total_occurrences": 108,
+            "issue_count": 1
+        },
+        "5227": {
+            "total_occurrences": 108,
+            "issue_count": 1
+        },
+        "samsungwallet:": {
+            "total_occurrences": 104,
+            "issue_count": 7
+        },
+        "09-23": {
+            "total_occurrences": 104,
+            "issue_count": 2
+        },
+        "12-27": {
+            "total_occurrences": 103,
+            "issue_count": 1
+        },
+        "underlyingnetworks:": {
+            "total_occurrences": 101,
+            "issue_count": 40
+        },
+        "null]": {
+            "total_occurrences": 101,
+            "issue_count": 40
+        },
+        "netdeventlistenerservice:": {
+            "total_occurrences": 98,
+            "issue_count": 42
+        },
+        "file\r\n": {
+            "total_occurrences": 98,
+            "issue_count": 37
+        },
+        "10108": {
+            "total_occurrences": 93,
+            "issue_count": 3
+        },
+        "09-25": {
+            "total_occurrences": 89,
+            "issue_count": 1
+        },
+        "\"mage.kim\"": {
+            "total_occurrences": 88,
+            "issue_count": 42
+        },
+        "3.7.5\r\n": {
+            "total_occurrences": 88,
+            "issue_count": 27
+        },
+        "12-09": {
+            "total_occurrences": 88,
+            "issue_count": 2
+        },
+        "timeout": {
+            "total_occurrences": 86,
+            "issue_count": 14
+        },
+        "10109": {
+            "total_occurrences": 86,
+            "issue_count": 1
+        },
+        "cellular": {
+            "total_occurrences": 85,
+            "issue_count": 41
+        },
+        "03-05": {
+            "total_occurrences": 85,
+            "issue_count": 1
+        },
+        "[pass][pass]register:": {
+            "total_occurrences": 83,
+            "issue_count": 17
+        },
+        "adminuids:": {
+            "total_occurrences": 81,
+            "issue_count": 38
+        },
+        "02-27": {
+            "total_occurrences": 81,
+            "issue_count": 1
+        },
+        "\"junho.cheong\"": {
+            "total_occurrences": 80,
+            "issue_count": 28
+        },
+        "04-09": {
+            "total_occurrences": 80,
+            "issue_count": 1
+        },
+        "12-28": {
+            "total_occurrences": 80,
+            "issue_count": 1
+        },
+        "vendor.samsung.hardware.security.skpm.isehskpm/default:": {
+            "total_occurrences": 79,
+            "issue_count": 5
+        },
+        "opcode": {
+            "total_occurrences": 78,
+            "issue_count": 8
+        },
+        "08-05": {
+            "total_occurrences": 78,
+            "issue_count": 2
+        },
+        "[ro.build.version.sdk]:": {
+            "total_occurrences": 77,
+            "issue_count": 28
+        },
+        "10127": {
+            "total_occurrences": 77,
+            "issue_count": 5
+        },
+        "bauth_fpbauthservice:": {
+            "total_occurrences": 77,
+            "issue_count": 7
+        },
+        "check_opcode": {
+            "total_occurrences": 77,
+            "issue_count": 7
+        },
+        "func_ret_val": {
+            "total_occurrences": 77,
+            "issue_count": 7
+        },
+        "function_status": {
+            "total_occurrences": 77,
+            "issue_count": 7
+        },
+        "01-06": {
+            "total_occurrences": 77,
+            "issue_count": 1
+        },
+        "12-29": {
+            "total_occurrences": 76,
+            "issue_count": 1
+        },
+        "provider": {
+            "total_occurrences": 76,
+            "issue_count": 38
+        },
+        "installed=true": {
+            "total_occurrences": 76,
+            "issue_count": 25
+        },
+        "suspended=false": {
+            "total_occurrences": 76,
+            "issue_count": 25
+        },
+        "enabled=0": {
+            "total_occurrences": 76,
+            "issue_count": 25
+        },
+        "instant=false": {
+            "total_occurrences": 76,
+            "issue_count": 25
+        },
+        "fido": {
+            "total_occurrences": 75,
+            "issue_count": 28
+        },
+        "hal": {
+            "total_occurrences": 75,
+            "issue_count": 16
+        },
+        "rssi:": {
+            "total_occurrences": 75,
+            "issue_count": 36
+        },
+        "stopped=false": {
+            "total_occurrences": 75,
+            "issue_count": 25
+        },
+        "notlaunched=false": {
+            "total_occurrences": 75,
+            "issue_count": 25
+        },
+        "01-13": {
+            "total_occurrences": 75,
+            "issue_count": 1
+        },
+        "transportinfo:": {
+            "total_occurrences": 74,
+            "issue_count": 36
+        },
+        "bssid:": {
+            "total_occurrences": 74,
+            "issue_count": 36
+        },
+        "mac:": {
+            "total_occurrences": 74,
+            "issue_count": 36
+        },
+        "ip:": {
+            "total_occurrences": 74,
+            "issue_count": 36
+        },
+        "supplicant": {
+            "total_occurrences": 74,
+            "issue_count": 36
+        },
+        "completed,": {
+            "total_occurrences": 74,
+            "issue_count": 36
+        },
+        "standard:": {
+            "total_occurrences": 74,
+            "issue_count": 36
+        },
+        "[ro.build.version.sem]:": {
+            "total_occurrences": 73,
+            "issue_count": 30
+        },
+        "[ro.build.version.sep]:": {
+            "total_occurrences": 73,
+            "issue_count": 30
+        },
+        "27589": {
+            "total_occurrences": 73,
+            "issue_count": 1
+        },
+        "has_code": {
+            "total_occurrences": 73,
+            "issue_count": 27
+        },
+        "allow_clear_user_data": {
+            "total_occurrences": 73,
+            "issue_count": 27
+        },
+        "returned": {
+            "total_occurrences": 72,
+            "issue_count": 38
+        },
+        "?????.\r\n\r\n\r\n": {
+            "total_occurrences": 72,
+            "issue_count": 45
+        },
+        "isehskpm\r\n": {
+            "total_occurrences": 72,
+            "issue_count": 5
+        },
+        "!": {
+            "total_occurrences": 71,
+            "issue_count": 38
+        },
+        "10520": {
+            "total_occurrences": 71,
+            "issue_count": 1
+        },
+        "11204": {
+            "total_occurrences": 71,
+            "issue_count": 1
+        },
+        "sec_ese_aidl_client:": {
+            "total_occurrences": 71,
+            "issue_count": 5
+        },
+        "distractionflags=0": {
+            "total_occurrences": 70,
+            "issue_count": 24
+        },
+        "07-01": {
+            "total_occurrences": 70,
+            "issue_count": 1
+        },
+        "frequency:": {
+            "total_occurrences": 69,
+            "issue_count": 36
+        },
+        "metered": {
+            "total_occurrences": 69,
+            "issue_count": 36
+        },
+        "hint:": {
+            "total_occurrences": 69,
+            "issue_count": 36
+        },
+        "score:": {
+            "total_occurrences": 69,
+            "issue_count": 36
+        },
+        "1316": {
+            "total_occurrences": 69,
+            "issue_count": 1
+        },
+        "29803": {
+            "total_occurrences": 69,
+            "issue_count": 1
+        },
+        "01-25": {
+            "total_occurrences": 69,
+            "issue_count": 1
+        },
+        "isusable:": {
+            "total_occurrences": 68,
+            "issue_count": 36
+        },
+        "carriermerged:": {
+            "total_occurrences": 68,
+            "issue_count": 36
+        },
+        "subscriptionid:": {
+            "total_occurrences": 68,
+            "issue_count": 36
+        },
+        "isprimary:": {
+            "total_occurrences": 68,
+            "issue_count": 36
+        },
+        "[authfw][fclnt]registration:": {
+            "total_occurrences": 68,
+            "issue_count": 24
+        },
+        "640": {
+            "total_occurrences": 68,
+            "issue_count": 1
+        },
+        "trusted:": {
+            "total_occurrences": 67,
+            "issue_count": 36
+        },
+        "restricted:": {
+            "total_occurrences": 67,
+            "issue_count": 36
+        },
+        "ephemeral:": {
+            "total_occurrences": 67,
+            "issue_count": 36
+        },
+        "paid:": {
+            "total_occurrences": 67,
+            "issue_count": 36
+        },
+        "private:": {
+            "total_occurrences": 67,
+            "issue_count": 36
+        },
+        "fqdn:": {
+            "total_occurrences": 67,
+            "issue_count": 36
+        },
+        "friendly": {
+            "total_occurrences": 67,
+            "issue_count": 36
+        },
+        "[ro.build.description]:": {
+            "total_occurrences": 67,
+            "issue_count": 24
+        },
+        "release-keys]\r\n": {
+            "total_occurrences": 67,
+            "issue_count": 24
+        },
+        "4921": {
+            "total_occurrences": 67,
+            "issue_count": 1
+        },
+        "10117": {
+            "total_occurrences": 67,
+            "issue_count": 3
+        },
+        "06-17": {
+            "total_occurrences": 67,
+            "issue_count": 2
+        },
+        "requesting": {
+            "total_occurrences": 66,
+            "issue_count": 36
+        },
+        "[ro.product.device]:": {
+            "total_occurrences": 66,
+            "issue_count": 24
+        },
+        "[ro.product.locale]:": {
+            "total_occurrences": 66,
+            "issue_count": 24
+        },
+        "[authfw]skpmservice:": {
+            "total_occurrences": 66,
+            "issue_count": 15
+        },
+        "information:": {
+            "total_occurrences": 65,
+            "issue_count": 36
+        },
+        "mld": {
+            "total_occurrences": 65,
+            "issue_count": 36
+        },
+        "address:": {
+            "total_occurrences": 65,
+            "issue_count": 36
+        },
+        "[authfw][fasm]register:": {
+            "total_occurrences": 65,
+            "issue_count": 28
+        },
+        "[authfw][psdk]fidocommandhelper:": {
+            "total_occurrences": 65,
+            "issue_count": 19
+        },
+        "info\r\n\r\n\r\n": {
+            "total_occurrences": 65,
+            "issue_count": 24
+        },
+        "[ro.vendor.boot.warranty_bit]:": {
+            "total_occurrences": 65,
+            "issue_count": 24
+        },
+        "29812": {
+            "total_occurrences": 65,
+            "issue_count": 1
+        },
+        "10119": {
+            "total_occurrences": 65,
+            "issue_count": 2
+        },
+        "[#1]": {
+            "total_occurrences": 64,
+            "issue_count": 40
+        },
+        "affiliated": {
+            "total_occurrences": 64,
+            "issue_count": 36
+        },
+        "verify": {
+            "total_occurrences": 64,
+            "issue_count": 30
+        },
+        "01-23": {
+            "total_occurrences": 64,
+            "issue_count": 1
+        },
+        "timestamp=2022-01-01": {
+            "total_occurrences": 64,
+            "issue_count": 22
+        },
+        "========default": {
+            "total_occurrences": 63,
+            "issue_count": 40
+        },
+        "history========\r\n": {
+            "total_occurrences": 63,
+            "issue_count": 40
+        },
+        "100": {
+            "total_occurrences": 63,
+            "issue_count": 34
+        },
+        "links:": {
+            "total_occurrences": 63,
+            "issue_count": 36
+        },
+        "success,": {
+            "total_occurrences": 63,
+            "issue_count": 25
+        },
+        "[aidlinterfacebinder]": {
+            "total_occurrences": 63,
+            "issue_count": 3
+        },
+        "2265": {
+            "total_occurrences": 63,
+            "issue_count": 1
+        },
+        "was:": {
+            "total_occurrences": 62,
+            "issue_count": 36
+        },
+        "signalstrength:": {
+            "total_occurrences": 62,
+            "issue_count": 36
+        },
+        "ssid:": {
+            "total_occurrences": 62,
+            "issue_count": 36
+        },
+        "tid-to-link": {
+            "total_occurrences": 62,
+            "issue_count": 34
+        },
+        "negotiation": {
+            "total_occurrences": 62,
+            "issue_count": 34
+        },
+        "[inaidl]": {
+            "total_occurrences": 62,
+            "issue_count": 3
+        },
+        "passkey": {
+            "total_occurrences": 62,
+            "issue_count": 12
+        },
+        "5064": {
+            "total_occurrences": 62,
+            "issue_count": 1
+        },
+        "02-06": {
+            "total_occurrences": 61,
+            "issue_count": 1
+        },
+        "virtual=false": {
+            "total_occurrences": 61,
+            "issue_count": 22
+        },
+        "[failresponse(volley)]": {
+            "total_occurrences": 61,
+            "issue_count": 3
+        },
+        "linkupbandwidth>=12000kbps": {
+            "total_occurrences": 59,
+            "issue_count": 26
+        },
+        "parsefailerrorresult,": {
+            "total_occurrences": 59,
+            "issue_count": 3
+        },
+        "03-21": {
+            "total_occurrences": 58,
+            "issue_count": 1
+        },
+        "09-15": {
+            "total_occurrences": 58,
+            "issue_count": 1
+        },
+        "31913": {
+            "total_occurrences": 58,
+            "issue_count": 1
+        },
+        "14953": {
+            "total_occurrences": 58,
+            "issue_count": 1
+        },
+        "06-12": {
+            "total_occurrences": 57,
+            "issue_count": 1
+        },
+        "secondarycpuabi=null\r\n": {
+            "total_occurrences": 56,
+            "issue_count": 27
+        },
+        "splits=[base]\r\n": {
+            "total_occurrences": 56,
+            "issue_count": 27
+        },
+        "flags=[": {
+            "total_occurrences": 56,
+            "issue_count": 27
+        },
+        "09-18": {
+            "total_occurrences": 56,
+            "issue_count": 1
+        },
+        "2060": {
+            "total_occurrences": 55,
+            "issue_count": 1
+        },
+        "primarycpuabi=arm64-v8a\r\n": {
+            "total_occurrences": 55,
+            "issue_count": 27
+        },
+        "cpuabioverride=null\r\n": {
+            "total_occurrences": 55,
+            "issue_count": 26
+        },
+        "minextensionversions=[]\r\n": {
+            "total_occurrences": 55,
+            "issue_count": 26
+        },
+        "usesnonsdkapi=false\r\n": {
+            "total_occurrences": 55,
+            "issue_count": 26
+        },
+        "32437": {
+            "total_occurrences": 55,
+            "issue_count": 1
+        },
+        "32450": {
+            "total_occurrences": 55,
+            "issue_count": 1
+        },
+        "android.samsungpass.\r\n": {
+            "total_occurrences": 55,
+            "issue_count": 4
+        },
+        "[profileprovider]": {
+            "total_occurrences": 55,
+            "issue_count": 3
+        },
+        "getcallingpackage()": {
+            "total_occurrences": 55,
+            "issue_count": 3
+        },
+        "[opencontentprovider]": {
+            "total_occurrences": 55,
+            "issue_count": 2
+        },
+        "7338": {
+            "total_occurrences": 54,
+            "issue_count": 1
+        },
+        "**??": {
+            "total_occurrences": 54,
+            "issue_count": 5
+        },
+        "15001000": {
+            "total_occurrences": 53,
+            "issue_count": 2
+        },
+        "24341": {
+            "total_occurrences": 53,
+            "issue_count": 1
+        },
+        "24354": {
+            "total_occurrences": 53,
+            "issue_count": 1
+        },
+        "app.signin.\r\n": {
+            "total_occurrences": 53,
+            "issue_count": 2
+        },
+        "09-16": {
+            "total_occurrences": 53,
+            "issue_count": 1
+        }
+    },
+    "Others": {
+        "sw>": {
+            "total_occurrences": 934,
+            "issue_count": 37
+        },
+        "samsungwallet:": {
+            "total_occurrences": 605,
+            "issue_count": 47
+        },
+        "00": {
+            "total_occurrences": 556,
+            "issue_count": 24
+        },
+        "s:": {
+            "total_occurrences": 496,
+            "issue_count": 14
+        },
+        "testrunner:": {
+            "total_occurrences": 474,
+            "issue_count": 16
+        },
+        "sec_ese_mw_ril:": {
+            "total_occurrences": 397,
+            "issue_count": 46
+        },
+        "samsungwallet[cn]:": {
+            "total_occurrences": 358,
+            "issue_count": 11
+        },
+        "line": {
+            "total_occurrences": 297,
+            "issue_count": 33
+        },
+        "01-01": {
+            "total_occurrences": 264,
+            "issue_count": 12
+        },
+        "[e]sem": {
+            "total_occurrences": 256,
+            "issue_count": 35
+        },
+        "07-29": {
+            "total_occurrences": 232,
+            "issue_count": 3
+        },
+        "5279": {
+            "total_occurrences": 228,
+            "issue_count": 17
+        },
+        "ff": {
+            "total_occurrences": 224,
+            "issue_count": 7
+        },
+        "[i]sem": {
+            "total_occurrences": 221,
+            "issue_count": 31
+        },
+        "gtospi_transceive": {
+            "total_occurrences": 220,
+            "issue_count": 41
+        },
+        "digitalkeyccc:": {
+            "total_occurrences": 219,
+            "issue_count": 15
+        },
+        "w4": {
+            "total_occurrences": 216,
+            "issue_count": 9
+        },
+        "[7:tz_iwlog_thread:": {
+            "total_occurrences": 215,
+            "issue_count": 14
+        },
+        "09-01": {
+            "total_occurrences": 215,
+            "issue_count": 3
+        },
+        "4e": {
+            "total_occurrences": 214,
+            "issue_count": 9
+        },
+        "[esecontroller]": {
+            "total_occurrences": 202,
+            "issue_count": 20
+        },
+        "debug": {
+            "total_occurrences": 201,
+            "issue_count": 19
+        },
+        "[ro.boot.revision]:": {
+            "total_occurrences": 197,
+            "issue_count": 55
+        },
+        "01": {
+            "total_occurrences": 196,
+            "issue_count": 15
+        },
+        "~6/gem/gto-secese.c:": {
+            "total_occurrences": 194,
+            "issue_count": 27
+        },
+        "digitalkey:": {
+            "total_occurrences": 185,
+            "issue_count": 14
+        },
+        "sec_nfc:": {
+            "total_occurrences": 175,
+            "issue_count": 15
+        },
+        "spi:": {
+            "total_occurrences": 175,
+            "issue_count": 29
+        },
+        "07-17": {
+            "total_occurrences": 169,
+            "issue_count": 2
+        },
+        "sec_nfc": {
+            "total_occurrences": 168,
+            "issue_count": 13
+        },
+        "f": {
+            "total_occurrences": 167,
+            "issue_count": 11
+        },
+        "activitythread:": {
+            "total_occurrences": 167,
+            "issue_count": 6
+        },
+        "08-08": {
+            "total_occurrences": 163,
+            "issue_count": 3
+        },
+        "11-14": {
+            "total_occurrences": 162,
+            "issue_count": 5
+        },
+        "1068": {
+            "total_occurrences": 159,
+            "issue_count": 20
+        },
+        "07-18": {
+            "total_occurrences": 157,
+            "issue_count": 3
+        },
+        "ese_not_open\r\n": {
+            "total_occurrences": 156,
+            "issue_count": 24
+        },
+        "nxpncir": {
+            "total_occurrences": 154,
+            "issue_count": 10
+        },
+        "dck": {
+            "total_occurrences": 148,
+            "issue_count": 10
+        },
+        "rd:": {
+            "total_occurrences": 147,
+            "issue_count": 13
+        },
+        "[0:": {
+            "total_occurrences": 145,
+            "issue_count": 29
+        },
+        "2137": {
+            "total_occurrences": 141,
+            "issue_count": 2
+        },
+        "08-13": {
+            "total_occurrences": 141,
+            "issue_count": 2
+        },
+        "power": {
+            "total_occurrences": 139,
+            "issue_count": 40
+        },
+        "[3:tz_iwlog_thread:": {
+            "total_occurrences": 139,
+            "issue_count": 17
+        },
+        "1485": {
+            "total_occurrences": 137,
+            "issue_count": 3
+        },
+        "~iso7816/sec_apdu.c:": {
+            "total_occurrences": 136,
+            "issue_count": 32
+        },
+        "06-05": {
+            "total_occurrences": 132,
+            "issue_count": 4
+        },
+        "2532": {
+            "total_occurrences": 132,
+            "issue_count": 2
+        },
+        "08-26": {
+            "total_occurrences": 132,
+            "issue_count": 2
+        },
+        "8255": {
+            "total_occurrences": 132,
+            "issue_count": 1
+        },
+        "active[a2dp]=false": {
+            "total_occurrences": 130,
+            "issue_count": 7
+        },
+        "active[hearing_aid]=false": {
+            "total_occurrences": 130,
+            "issue_count": 7
+        },
+        "active[le_audio]=false\r\n": {
+            "total_occurrences": 130,
+            "issue_count": 7
+        },
+        "06-13": {
+            "total_occurrences": 130,
+            "issue_count": 2
+        },
+        "connected=false": {
+            "total_occurrences": 128,
+            "issue_count": 8
+        },
+        "07-23": {
+            "total_occurrences": 128,
+            "issue_count": 3
+        },
+        "initialized": {
+            "total_occurrences": 127,
+            "issue_count": 38
+        },
+        "active[headset]=false": {
+            "total_occurrences": 127,
+            "issue_count": 7
+        },
+        "11-22": {
+            "total_occurrences": 126,
+            "issue_count": 1
+        },
+        "route:": {
+            "total_occurrences": 124,
+            "issue_count": 28
+        },
+        "[1:tz_iwlog_thread:": {
+            "total_occurrences": 123,
+            "issue_count": 16
+        },
+        "skpm": {
+            "total_occurrences": 123,
+            "issue_count": 11
+        },
+        "[jcop7.0u]\r\n": {
+            "total_occurrences": 122,
+            "issue_count": 24
+        },
+        "08-06": {
+            "total_occurrences": 122,
+            "issue_count": 4
+        },
+        "evt": {
+            "total_occurrences": 119,
+            "issue_count": 7
+        },
+        "3609": {
+            "total_occurrences": 118,
+            "issue_count": 1
+        },
+        "09-05": {
+            "total_occurrences": 117,
+            "issue_count": 3
+        },
+        "11-27": {
+            "total_occurrences": 117,
+            "issue_count": 3
+        },
+        "aid": {
+            "total_occurrences": 116,
+            "issue_count": 31
+        },
+        "closing": {
+            "total_occurrences": 116,
+            "issue_count": 28
+        },
+        "(\r\n": {
+            "total_occurrences": 116,
+            "issue_count": 13
+        },
+        "1109": {
+            "total_occurrences": 116,
+            "issue_count": 3
+        },
+        "--": {
+            "total_occurrences": 115,
+            "issue_count": 28
+        },
+        "cifrequest": {
+            "total_occurrences": 114,
+            "issue_count": 5
+        },
+        "phnxpese_close": {
+            "total_occurrences": 113,
+            "issue_count": 26
+        },
+        "555": {
+            "total_occurrences": 112,
+            "issue_count": 1
+        },
+        "nxpesehal:": {
+            "total_occurrences": 111,
+            "issue_count": 12
+        },
+        "11-29": {
+            "total_occurrences": 111,
+            "issue_count": 3
+        },
+        "ril.simslottype1:": {
+            "total_occurrences": 110,
+            "issue_count": 40
+        },
+        "kernel": {
+            "total_occurrences": 109,
+            "issue_count": 20
+        },
+        "i2c_write:": {
+            "total_occurrences": 108,
+            "issue_count": 15
+        },
+        "06-28": {
+            "total_occurrences": 108,
+            "issue_count": 2
+        },
+        "[commonrequester]": {
+            "total_occurrences": 107,
+            "issue_count": 8
+        },
+        "[st2]": {
+            "total_occurrences": 107,
+            "issue_count": 4
+        },
+        "2638": {
+            "total_occurrences": 105,
+            "issue_count": 1
+        },
+        "1395": {
+            "total_occurrences": 104,
+            "issue_count": 2
+        },
+        "rild2\r\n": {
+            "total_occurrences": 103,
+            "issue_count": 41
+        },
+        "!!,": {
+            "total_occurrences": 101,
+            "issue_count": 39
+        },
+        "09-27": {
+            "total_occurrences": 98,
+            "issue_count": 1
+        },
+        "01-28": {
+            "total_occurrences": 98,
+            "issue_count": 1
+        },
+        "[com.unionpay.tsmservice]": {
+            "total_occurrences": 97,
+            "issue_count": 49
+        },
+        "[com.samsung.android.spayfw]": {
+            "total_occurrences": 97,
+            "issue_count": 49
+        },
+        "[context": {
+            "total_occurrences": 97,
+            "issue_count": 9
+        },
+        "applet": {
+            "total_occurrences": 96,
+            "issue_count": 34
+        },
+        "maybe": {
+            "total_occurrences": 96,
+            "issue_count": 15
+        },
+        "recovery": {
+            "total_occurrences": 96,
+            "issue_count": 18
+        },
+        "31\r\n": {
+            "total_occurrences": 96,
+            "issue_count": 24
+        },
+        "[ut9.0u]\r\n": {
+            "total_occurrences": 96,
+            "issue_count": 10
+        },
+        "10264": {
+            "total_occurrences": 96,
+            "issue_count": 8
+        },
+        "2017": {
+            "total_occurrences": 95,
+            "issue_count": 8
+        },
+        "ret(-107),": {
+            "total_occurrences": 95,
+            "issue_count": 14
+        },
+        "[4:tz_iwlog_thread:": {
+            "total_occurrences": 95,
+            "issue_count": 13
+        },
+        "0319": {
+            "total_occurrences": 94,
+            "issue_count": 7
+        },
+        "wr:": {
+            "total_occurrences": 94,
+            "issue_count": 18
+        },
+        "[0:tz_iwlog_thread:": {
+            "total_occurrences": 94,
+            "issue_count": 14
+        },
+        "10120": {
+            "total_occurrences": 92,
+            "issue_count": 4
+        },
+        "ic": {
+            "total_occurrences": 90,
+            "issue_count": 27
+        },
+        "timeout": {
+            "total_occurrences": 90,
+            "issue_count": 28
+        },
+        "[1:": {
+            "total_occurrences": 90,
+            "issue_count": 11
+        },
+        "trend": {
+            "total_occurrences": 90,
+            "issue_count": 3
+        },
+        "12-23": {
+            "total_occurrences": 90,
+            "issue_count": 2
+        },
+        "03-25": {
+            "total_occurrences": 90,
+            "issue_count": 1
+        },
+        "service_id=289": {
+            "total_occurrences": 90,
+            "issue_count": 6
+        },
+        "10483": {
+            "total_occurrences": 90,
+            "issue_count": 3
+        },
+        "sec_ese_servicemanager:": {
+            "total_occurrences": 89,
+            "issue_count": 31
+        },
+        "command": {
+            "total_occurrences": 89,
+            "issue_count": 37
+        },
+        "ese_perform_cold_reset:": {
+            "total_occurrences": 89,
+            "issue_count": 13
+        },
+        "pc": {
+            "total_occurrences": 89,
+            "issue_count": 12
+        },
+        "channel\r\n": {
+            "total_occurrences": 89,
+            "issue_count": 24
+        },
+        "h2": {
+            "total_occurrences": 89,
+            "issue_count": 6
+        },
+        "body)\r\n": {
+            "total_occurrences": 89,
+            "issue_count": 6
+        },
+        "11-03": {
+            "total_occurrences": 89,
+            "issue_count": 2
+        },
+        "esespimwipccoldresetnotice": {
+            "total_occurrences": 88,
+            "issue_count": 33
+        },
+        "06-11": {
+            "total_occurrences": 88,
+            "issue_count": 2
+        },
+        "apps:": {
+            "total_occurrences": 88,
+            "issue_count": 5
+        },
+        "state]\r\n": {
+            "total_occurrences": 88,
+            "issue_count": 22
+        },
+        "[6:tz_iwlog_thread:": {
+            "total_occurrences": 88,
+            "issue_count": 11
+        },
+        "12-30": {
+            "total_occurrences": 88,
+            "issue_count": 1
+        },
+        "phnxpese_readpacket": {
+            "total_occurrences": 87,
+            "issue_count": 15
+        },
+        "05-02": {
+            "total_occurrences": 87,
+            "issue_count": 3
+        },
+        "17745": {
+            "total_occurrences": 87,
+            "issue_count": 3
+        },
+        "17760": {
+            "total_occurrences": 87,
+            "issue_count": 3
+        },
+        "12c500d7\r\n": {
+            "total_occurrences": 86,
+            "issue_count": 16
+        },
+        "p61r1\r\n[": {
+            "total_occurrences": 86,
+            "issue_count": 3
+        },
+        "9000\r\n": {
+            "total_occurrences": 86,
+            "issue_count": 38
+        },
+        "qcom_rpmh": {
+            "total_occurrences": 85,
+            "issue_count": 5
+        },
+        "1437": {
+            "total_occurrences": 85,
+            "issue_count": 2
+        },
+        "11-19": {
+            "total_occurrences": 85,
+            "issue_count": 2
+        },
+        "12-02": {
+            "total_occurrences": 85,
+            "issue_count": 1
+        },
+        "771": {
+            "total_occurrences": 84,
+            "issue_count": 2
+        },
+        "10327": {
+            "total_occurrences": 84,
+            "issue_count": 3
+        },
+        "1210": {
+            "total_occurrences": 84,
+            "issue_count": 2
+        },
+        "11:41:06.858": {
+            "total_occurrences": 84,
+            "issue_count": 3
+        },
+        "kim/system": {
+            "total_occurrences": 83,
+            "issue_count": 30
+        },
+        "routed": {
+            "total_occurrences": 83,
+            "issue_count": 23
+        },
+        "[com.samsung.android.spayfw]\r\n": {
+            "total_occurrences": 83,
+            "issue_count": 16
+        },
+        "resp": {
+            "total_occurrences": 83,
+            "issue_count": 15
+        },
+        "09-24": {
+            "total_occurrences": 83,
+            "issue_count": 2
+        },
+        "99:": {
+            "total_occurrences": 83,
+            "issue_count": 22
+        },
+        "cold": {
+            "total_occurrences": 82,
+            "issue_count": 22
+        },
+        "1490": {
+            "total_occurrences": 82,
+            "issue_count": 2
+        },
+        "11-21": {
+            "total_occurrences": 82,
+            "issue_count": 3
+        },
+        "gtospi_close": {
+            "total_occurrences": 82,
+            "issue_count": 23
+        },
+        "p61r2\r\n[": {
+            "total_occurrences": 81,
+            "issue_count": 5
+        },
+        "3765": {
+            "total_occurrences": 81,
+            "issue_count": 1
+        },
+        "10-09": {
+            "total_occurrences": 81,
+            "issue_count": 3
+        },
+        "292]": {
+            "total_occurrences": 81,
+            "issue_count": 4
+        },
+        "10-05": {
+            "total_occurrences": 81,
+            "issue_count": 2
+        },
+        "01\r\n": {
+            "total_occurrences": 80,
+            "issue_count": 33
+        },
+        "1100": {
+            "total_occurrences": 80,
+            "issue_count": 2
+        },
+        "[wirelesscapabilitiesfeatures]": {
+            "total_occurrences": 80,
+            "issue_count": 6
+        },
+        "2808": {
+            "total_occurrences": 80,
+            "issue_count": 1
+        },
+        "08-21": {
+            "total_occurrences": 79,
+            "issue_count": 2
+        },
+        "194:": {
+            "total_occurrences": 79,
+            "issue_count": 22
+        },
+        "01-13": {
+            "total_occurrences": 79,
+            "issue_count": 2
+        },
+        "03-19": {
+            "total_occurrences": 79,
+            "issue_count": 2
+        },
+        "ll_ctrl": {
+            "total_occurrences": 79,
+            "issue_count": 3
+        },
+        "06-04": {
+            "total_occurrences": 78,
+            "issue_count": 2
+        },
+        "skms": {
+            "total_occurrences": 78,
+            "issue_count": 29
+        },
+        "1266": {
+            "total_occurrences": 78,
+            "issue_count": 1
+        },
+        "1387": {
+            "total_occurrences": 78,
+            "issue_count": 2
+        },
+        "[6:": {
+            "total_occurrences": 77,
+            "issue_count": 8
+        },
+        "apdu": {
+            "total_occurrences": 77,
+            "issue_count": 42
+        },
+        "09-09": {
+            "total_occurrences": 77,
+            "issue_count": 2
+        },
+        "10335": {
+            "total_occurrences": 77,
+            "issue_count": 3
+        },
+        "sechal": {
+            "total_occurrences": 76,
+            "issue_count": 9
+        },
+        "nfcfactoryinitprop": {
+            "total_occurrences": 76,
+            "issue_count": 8
+        },
+        "restretrycount": {
+            "total_occurrences": 76,
+            "issue_count": 8
+        },
+        "1622": {
+            "total_occurrences": 76,
+            "issue_count": 1
+        },
+        "2165": {
+            "total_occurrences": 76,
+            "issue_count": 1
+        },
+        "spay:esechntacontroller:": {
+            "total_occurrences": 75,
+            "issue_count": 8
+        },
+        "2249": {
+            "total_occurrences": 75,
+            "issue_count": 4
+        },
+        "[com.samsung.android.spay]": {
+            "total_occurrences": 74,
+            "issue_count": 64
+        },
+        "07-21": {
+            "total_occurrences": 74,
+            "issue_count": 1
+        },
+        "employee/wallet": {
+            "total_occurrences": 74,
+            "issue_count": 28
+        },
+        "[s5e8855]\r\n\r\n\r\n": {
+            "total_occurrences": 74,
+            "issue_count": 13
+        },
+        "2806": {
+            "total_occurrences": 74,
+            "issue_count": 1
+        },
+        "3132": {
+            "total_occurrences": 74,
+            "issue_count": 1
+        },
+        "7352": {
+            "total_occurrences": 74,
+            "issue_count": 1
+        },
+        "03": {
+            "total_occurrences": 73,
+            "issue_count": 15
+        },
+        "lin/wallet": {
+            "total_occurrences": 73,
+            "issue_count": 15
+        },
+        "kworker/u16:5:": {
+            "total_occurrences": 73,
+            "issue_count": 2
+        },
+        "10194": {
+            "total_occurrences": 73,
+            "issue_count": 2
+        },
+        "1350": {
+            "total_occurrences": 73,
+            "issue_count": 1
+        },
+        "1369": {
+            "total_occurrences": 73,
+            "issue_count": 1
+        },
+        "senddatanwd": {
+            "total_occurrences": 72,
+            "issue_count": 15
+        },
+        "[2:tz_iwlog_thread:": {
+            "total_occurrences": 72,
+            "issue_count": 14
+        },
+        "09-30": {
+            "total_occurrences": 72,
+            "issue_count": 2
+        },
+        "digital_key_ta_entry:": {
+            "total_occurrences": 72,
+            "issue_count": 24
+        }
+    }
+}

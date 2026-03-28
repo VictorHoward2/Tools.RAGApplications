@@ -4,7 +4,7 @@ import re
 from pathlib import Path
 
 OLLAMA_API_URL = "http://localhost:11434/api/generate"
-MODEL_NAME = "gemma3:270m"
+MODEL_NAME = "llama3.1:8b"
 
 INPUT_FILE = Path("D:\\Projects\\AITOPIA\\phase1\\find-module\\data\\719\\Defect_list_rag_with_assignment.json")
 OUTPUT_FILE = Path("D:\\Projects\\AITOPIA\\phase1\\find-module\\data\\719\\Defect_list_rag_with_assignment_ai.json")

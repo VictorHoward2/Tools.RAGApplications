@@ -64,7 +64,7 @@ def score_issue(issue: dict[str, Any]) -> dict[str, Any]:
                     if occurrences <= 0:
                         continue
 
-                    score_gain = base_weight * field_weight
+                    score_gain = occurrences * base_weight * field_weight
                     scores[module] += score_gain
 
                     matched_keywords[module].append({
